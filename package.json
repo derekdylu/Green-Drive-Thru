@@ -1,0 +1,8 @@
+{
+  "name": "green-report-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/derekdylu/green-report-generator.git",
+  "author": "Derek Lu <derekdylu@gmail.com>",
+  "license": "MIT"
+}
