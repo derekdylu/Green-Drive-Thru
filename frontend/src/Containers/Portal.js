@@ -53,15 +53,6 @@ const Portal = () => {
   return (
     <div style={{ background: "#e3e3e3", paddingBottom: "500px"}}>
       <img src={header} alt="header" style={{ width: "100vw", height: "200px", objectFit: "cover"}}/>
-      <Typography variant="h6" sx={{ px: 7 }}>
-        {(() => {
-          let car = [];
-          for (let i = 1; i <= Math.round(timbers.reduce((acc, cur) => acc + cur.reduction, 0) / 4.6); i++) {
-            car.push(<>🚗</>);
-          }
-          return car;
-        })()}
-      </Typography>
       <Grid
         container
         direction="row"
@@ -174,10 +165,10 @@ const Portal = () => {
                     {item.import * 1000} BMF
                   </Typography>
                   <Typography variant="subtitle2" sx={{ mt: 2 }}>
-                    固定的二氧化碳
+                    固碳效益
                   </Typography>
                   <Typography variant="body1">
-                    {item.reduction} 公噸
+                    {item.reduction} 公噸 CO2e
                   </Typography>
                   <Button variant="outlined" color="error" onClick={() => handleDeleteTimber(index)} sx={{ mt: 5.025 }}>移除</Button>
                 </Grid>
@@ -222,6 +213,15 @@ const Portal = () => {
           <Button variant="contained" color="primary" onClick={() => handleAddTimber()} disabled={!(currentImport > 0)} sx={{ mt: 2 }}>新增</Button>
         </Grid>
       </Grid>
+      <Typography variant="h6" sx={{ px: 7 }}>
+        {(() => {
+          let car = [];
+          for (let i = 1; i <= Math.round(timbers.reduce((acc, cur) => acc + cur.reduction, 0) / 4.6); i++) {
+            car.push(<>🚗</>);
+          }
+          return car;
+        })()}
+      </Typography>
     </div>
   )
 }
