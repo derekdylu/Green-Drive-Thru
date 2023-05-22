@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Button from '@mui/material/Button';
 import Navigation from '../Components/Navigation/index'
 
 import logo2 from '../Images/logo2.png'
