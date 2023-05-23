@@ -9,8 +9,8 @@ const Analysis = () => {
     <div>
       <Navigation />
       <AdSense.Google
-        client={process.env.AD_CLIENT_ID}
-        slot={process.env.AD_CLIENT_SLOT}
+        client={process.env.AD_CLIENT_ID || ""}
+        slot={process.env.AD_CLIENT_SLOT || ""}
       />
       <Footer />
     </div>
