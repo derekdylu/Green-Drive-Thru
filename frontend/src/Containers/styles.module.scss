@@ -1,0 +1,28 @@
+.divider {
+  display: inline;
+  position: relative;
+  height: 40px;
+  width: 1px;
+  background-color: #228C22;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.headerLogo {
+  position: absolute;
+  top: 20vw;
+  left: 0px;
+
+  animation: fadein 2s;
+}
+
+.header {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}

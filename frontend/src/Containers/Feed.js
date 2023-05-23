@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navigation from '../Components/Navigation/index'
+import Navigation from '../Components/Navigation/Navigation'
 import Post from '../Components/Feed/Post'
 
 const contents = [
@@ -44,7 +44,7 @@ const Feed = () => {
   return (
     <div>
       <Navigation />
-      <div className="flex flex-col items-center m-4">
+      <div className="flex flex-col items-center mx-8 md:mx-36 xl:mx-72 space-y-6">
         {
           contents.map((item, index) => {
             return (

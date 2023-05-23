@@ -1,8 +1,13 @@
 import React from 'react'
 
-import Navigation from '../Components/Navigation/index'
+import Navigation from '../Components/Navigation/Navigation'
+import Footer from '../Components/Footer/Footer'
+
+import styles from './styles.module.scss'
 
 import logo2 from '../Images/logo2.png'
+import about from '../Images/about.png'
+import team from '../Images/team.png'
 import Derek from '../Images/Derek.png'
 import YiHon from '../Images/YiHon.png'
 import Vicky from '../Images/Vicky.png'
@@ -42,26 +47,79 @@ const profiles = [
   }
 ]
 
-const contents = [
-  "我們是來自國立台灣大學創意創業學程的專案團隊Green Drive Thru，致力於提供組織、新創和企業一套完整的 ESG 顧問服務，讓每個人對環境的努力都被看見。",
-  "提供的服務包括：ESG 報告書撰寫、國內 ESG 報告書數據分析資訊平台以及 ESG 相關的教育推廣。在 ESG 報告書撰寫的服務中，將導入生成式 AI 輔助作業流程，降低時間與人力成本，並針對產業及企業產品客製化報告書項目。未來，我們計畫推出一個體驗介面，讓組織或企業可以透過輸入數據資料來預覽報告內容與 ESG 相關指標的評分。",
+const contents1 = [
+  {
+    "type": "title",
+    "content": "致力於讓每個人對環境的努力都被看見。"
+  },
+  {
+    "type": "text",
+    "content": "我們是國立台灣大學第 15 屆創意創業學程的專案團隊Green Drive Thru，致力於提供組織、新創和企業一套完整的 ESG 顧問服務。"
+  },
+  {
+    "type": "text",
+    "content": "ESG 報告書顧問與整合行銷、國內 ESG 趨勢分析平台以及 ESG 教育培訓等。在 ESG 報告書顧問的服務中，將導入生成式 AI 輔助作業流程，降低時間與人力成本，並針對產業及企業需求做出客製化的報告書。未來，我們計畫推出一個體驗介面，讓組織或企業可以透過輸入數據資料來預覽報告內容與 ESG 相關指標的評分。",
+  }
+]
 
+const contents2 = [
+  {
+    "type": "title",
+    "content": "我們的團隊"
+  },
+  {
+    "type": "text",
+    "content": "我們來自五個不同的領域，透過我們的各自的專業，可以為企業發現並創造出額外的價值。"
+  }
 ]
 
 const About = () => {
   return (
-    <div>
+    <div className={styles.about}>
       <Navigation />
-      <div className="flex flex-col items-center px-8">
-        <img src={logo2} alt="logo" style={{ width: "25%", height: "auto" }} />
-        {
-          contents.map((item, index) => {
-            return (
-              <p key={index} style={{ fontSize: "20px", padding: "20px" }}>{item}</p>
-            )
-          })
-        }
-        <div className="flex flex-row">
+      <img src={about} alt="logo" style={{ height: "250px", width: "100%", objectFit: "cover"}} />
+      <div className="flex flex-col items-center">
+        <div
+          className="flex flex-col justify-evenly px-12 py-8 md:px-24 md:py-16 "
+          style={{
+          background: "radial-gradient(74.64% 187.56% at 100% 132.13%, #228C22 0%, #369836 0.01%, #103910 100%" 
+        }}>
+          {
+            contents1.map((item, index) => {
+              if (item.type === "title")
+                return (
+                  <div key={index} className="text-2xl text-white font-bold my-3">{item.content}</div>
+                )
+              if (item.type === "text")
+                return (
+                  <p key={index} className="text-base text-white font-normal my-3">{item.content}</p>
+                )
+            })
+          }
+        </div>
+        <div className="flex flex-col md:flex-row items-center justify-center">
+          <div className="flex flex-col flex-grow items-start px-12 py-8 md:mx-24 md:py-16">
+            {
+              contents2.map((item, index) => {
+                if (item.type === "title")
+                  return (
+                    <div key={index} className="text-2xl text-black font-bold my-3">{item.content}</div>
+                  )
+                if (item.type === "text")
+                  return (
+                    <p key={index} className="text-base text-black font-normal my-3">{item.content}</p>
+                  )
+              })
+            }
+            <a className="my-3" href="mailto:contact@greendrivethru.com.tw">
+              <button className="rounded-full bg-main text-white px-4 py-2">聯絡我們</button>
+            </a>
+          </div>
+          <div className="flex flex-grow">
+            <img src={team} alt="team" style={{ objectFit: "cover" }} />
+          </div>
+        </div>
+        <div className="grid grid-cols-1 my-12 md:grid-cols-5">
           {
             profiles.map((item, index) => {
               return (
@@ -75,10 +133,8 @@ const About = () => {
             })
           }
         </div>
-        <a className="my-10" href="mailto:contact@greendrivethru.com.tw">
-          <button className="rounded-full bg-main text-white px-4 py-2">聯絡我們</button>
-        </a>
       </div>
+      <Footer />
     </div>
   )
 }
