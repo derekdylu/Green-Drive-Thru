@@ -1,6 +1,8 @@
 import React from 'react'
 import classnames from 'classnames'
 
+import Link from '@mui/material/Link';
+
 import Navigation from '../Components/Navigation/Navigation'
 import Footer from '../Components/Footer/Footer'
 
@@ -62,13 +64,13 @@ const Home = () => {
               return null
             })
           }
-          <div className="flex flex-row space-x-2">
-            <a className="my-3" href="mailto:contact@greendrivethru.com.tw">
+          <div className="flex flex-row space-x-2 py-3">
+            <Link className="my-3" href="/analysis">
               <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")}>探索趨勢</button>
-            </a>
-            <a className="my-3" href="mailto:contact@greendrivethru.com.tw">
+            </Link>
+            <Link className="my-3" href="mailto:contact@greendrivethru.com.tw">
               <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")}>聯絡我們</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
