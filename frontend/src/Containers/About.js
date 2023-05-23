@@ -5,7 +5,6 @@ import Footer from '../Components/Footer/Footer'
 
 import styles from './styles.module.scss'
 
-import logo2 from '../Images/logo2.png'
 import about from '../Images/about.png'
 import team from '../Images/team.png'
 import Derek from '../Images/Derek.png'
@@ -94,6 +93,7 @@ const About = () => {
                 return (
                   <p key={index} className="text-base text-white font-normal my-3">{item.content}</p>
                 )
+              return null
             })
           }
         </div>
@@ -109,6 +109,7 @@ const About = () => {
                   return (
                     <p key={index} className="text-base text-black font-normal my-3">{item.content}</p>
                   )
+                return null
               })
             }
             <a className="my-3" href="mailto:contact@greendrivethru.com.tw">

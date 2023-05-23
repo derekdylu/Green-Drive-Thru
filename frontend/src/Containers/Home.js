@@ -59,6 +59,7 @@ const Home = () => {
                 return (
                   <p key={index} className="text-base text-black font-normal my-3">{item.content}</p>
                 )
+              return null
             })
           }
           <div className="flex flex-row space-x-4">

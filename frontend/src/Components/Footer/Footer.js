@@ -3,7 +3,6 @@ import React from 'react'
 import Link from '@mui/material/Link';
 
 import logo2 from '../../Images/logo2.png'
-import { TextField } from '@mui/material'
 
 const Footer = () => {
   return (
