@@ -85,3 +85,7 @@
   transition: all 250ms ease-in-out;
   opacity: 0;
 }
+
+.navItem:hover {
+  text-decoration: underline #228C22 2.5px solid;
+}

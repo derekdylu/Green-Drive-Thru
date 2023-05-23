@@ -15,8 +15,14 @@
 
 .headerLogo {
   position: absolute;
-  top: 20vw;
   left: 0px;
+
+  @media (max-width: 1024px) {
+    top: 150px;
+  }
+  @media (min-width: 1024px) {
+    top: 225px;
+  }
 
   animation: fadein 2s;
 }
@@ -25,4 +31,9 @@
   position: relative;
   top: 0px;
   left: 0px;
+}
+
+.button:hover {
+  background-color: #276327;
+  color: white;
 }

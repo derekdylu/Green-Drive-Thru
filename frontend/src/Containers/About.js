@@ -1,4 +1,5 @@
 import React from 'react'
+import classnames from 'classnames'
 
 import Navigation from '../Components/Navigation/Navigation'
 import Footer from '../Components/Footer/Footer'
@@ -68,7 +69,7 @@ const contents2 = [
   },
   {
     "type": "text",
-    "content": "我們來自五個不同的領域，透過我們的各自的專業，可以為企業發現並創造出額外的價值。"
+    "content": "我們的多元專業背景使我們能夠深入了解企業運作的各個層面，並結合資訊科技、視覺設計、財務分析和有效的管理策略，從而為客戶發現並創造有潛力的架值。透過資訊領域的專業知識，我們可以分析和利用數據，訓練 AI 模型，為企業提供準確的市場趨勢和洞察，並提供一套完整的顧問服務。"
   }
 ]
 
@@ -98,7 +99,7 @@ const About = () => {
           }
         </div>
         <div className="flex flex-col md:flex-row items-center justify-center">
-          <div className="flex flex-col flex-grow items-start px-12 py-8 md:mx-24 md:py-16">
+          <div className="flex flex-col md:w-1/2 items-start px-12 py-8 md:px-24 md:py-16">
             {
               contents2.map((item, index) => {
                 if (item.type === "title")
@@ -113,10 +114,10 @@ const About = () => {
               })
             }
             <a className="my-3" href="mailto:contact@greendrivethru.com.tw">
-              <button className="rounded-full bg-main text-white px-4 py-2">聯絡我們</button>
+              <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")}>聯絡我們</button>
             </a>
           </div>
-          <div className="flex flex-grow">
+          <div className="md:w-1/2">
             <img src={team} alt="team" style={{ objectFit: "cover" }} />
           </div>
         </div>

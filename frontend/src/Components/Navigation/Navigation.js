@@ -37,19 +37,19 @@ const Navigation = () => {
           width > MIN_WIDTH ? (
             <div className="flex flex-row justify-end items-center">
               <Link href="/" color="#228C22" sx={{ mx: 2 }} style={{ textDecoration: 'none' }}>
-                <div>首頁</div>
+                <div className={classnames(styles.navItem, "text-lg font-bold")}>首頁</div>
               </Link>
               <Link href="/analysis" color="#228C22" sx={{ mx: 2 }} style={{ textDecoration: 'none' }}>
-                <div>趨勢分析</div>
+                <div className={classnames(styles.navItem, "text-lg font-bold")}>趨勢分析</div>
               </Link>
               {/* <Link href="/report" color="#228C22" sx={{ mx: 2 }} style={{ textDecoration: 'none' }}>
-                <div>報告書顧問</div>
+                <div className={classnames(styles.navItem, "text-lg font-bold")}>報告書顧問</div>
               </Link> */}
               <Link href="/feed" color="#228C22" sx={{ mx: 2 }} style={{ textDecoration: 'none' }}>
-                <div>部落格</div>
+                <div className={classnames(styles.navItem, "text-lg font-bold")}>部落格</div>
               </Link>
               <Link href="/about" color="#228C22" sx={{ mx: 2 }} style={{ textDecoration: 'none' }}>
-                <div>關於我們</div>
+                <div className={classnames(styles.navItem, "text-lg font-bold")}>關於我們</div>
               </Link>
             </div>
           ) : (
