@@ -9,7 +9,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-import header from '../Images/header.png'
+import Navigation from '../Components/Navigation/Navigation';
 import { timberData } from '../Utils/TimberData';
 
 const TRANSFORM_CONST = 8.8
@@ -51,7 +51,7 @@ const Portal = () => {
 
   return (
     <div style={{ background: "#e3e3e3", paddingBottom: "500px"}}>
-      <img src={header} alt="header" style={{ width: "100vw", height: "200px", objectFit: "cover"}}/>
+      <Navigation />
       <Grid
         container
         direction="row"

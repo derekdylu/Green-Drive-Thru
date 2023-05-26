@@ -18,11 +18,14 @@ const Footer = () => {
           <Link href="mailto:contact@greendrivethru.com.tw" style={{ textDecoration: 'none' }}>
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>訂閱電子報</div>
           </Link>
-          <Link href="/faq" style={{ textDecoration: 'none' }}>
-            <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>常見問題</div>
-          </Link>
           <Link href="/terms" style={{ textDecoration: 'none' }}>
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>使用條款</div>
+          </Link>
+          <Link href="/report" style={{ textDecoration: 'none' }}>
+            <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>報告書</div>
+          </Link>
+          <Link href="/portal" style={{ textDecoration: 'none' }}>
+            <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>負碳試算</div>
           </Link>
           <Link href="mailto:contact@greendrivethru.com.tw" style={{ textDecoration: 'none' }}>
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>聯絡我們</div>

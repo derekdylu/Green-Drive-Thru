@@ -1,42 +1,49 @@
 {
   "data": [
     {
+      "industry": "chemical",
       "company": "中纖",
       "year": "2021",
       "revenue_kiloNTD": "33095627",
       "capital": "16862097"
     },
     {
+      "industry": "chemical",
       "company": "中纖",
       "year": "2020",
       "revenue_kiloNTD": "30969737",
       "capital": "16213672"
     },
     {
+      "industry": "chemical",
       "company": "中纖",
       "year": "2019",
       "revenue_kiloNTD": "35556530",
       "capital": "16213672"
     },
     {
+      "industry": "chemical",
       "company": "中纖",
       "year": "2018",
       "revenue_kiloNTD": "41512028",
       "capital": "15224105"
     },
     {
+      "industry": "chemical",
       "company": "中纖",
       "year": "2017",
       "revenue_kiloNTD": "37132385",
       "capital": "14294934"
     },
     {
+      "industry": "chemical",
       "company": "中纖",
       "year": "2016",
       "revenue_kiloNTD": "33274937",
       "capital": "14294934"
     },
     {
+      "industry": "chemical",
       "company": "長興",
       "year": "2021",
       "revenue_kiloNTD": "50471397",
@@ -50,6 +57,7 @@
       "intdirect_emission_ton": "166757"
     },
     {
+      "industry": "chemical",
       "company": "長興",
       "year": "2020",
       "revenue_kiloNTD": "38370366",
@@ -63,6 +71,7 @@
       "intdirect_emission_ton": "154829"
     },
     {
+      "industry": "chemical",
       "company": "長興",
       "year": "2019",
       "revenue_kiloNTD": "40363238",
@@ -76,6 +85,7 @@
       "intdirect_emission_ton": "155116"
     },
     {
+      "industry": "chemical",
       "company": "長興",
       "year": "2018",
       "revenue_kiloNTD": "43300155",
@@ -87,6 +97,7 @@
       "intdirect_emission_ton": "111988"
     },
     {
+      "industry": "chemical",
       "company": "長興",
       "year": "2017",
       "revenue_kiloNTD": "41551117",
@@ -98,6 +109,7 @@
       "intdirect_emission_ton": "160185"
     },
     {
+      "industry": "chemical",
       "company": "長興",
       "year": "2016",
       "revenue_kiloNTD": "38679640",
@@ -109,6 +121,7 @@
       "intdirect_emission_ton": "134219"
     },
     {
+      "industry": "chemical",
       "company": "和桐",
       "year": "2021",
       "revenue_kiloNTD": "20084505",
@@ -127,6 +140,7 @@
       "intdirect_emission_ton": "3058"
     },
     {
+      "industry": "chemical",
       "company": "和桐",
       "year": "2020",
       "revenue_kiloNTD": "25892577",
@@ -145,6 +159,7 @@
       "intdirect_emission_ton": "3660"
     },
     {
+      "industry": "chemical",
       "company": "和桐",
       "year": "2019",
       "revenue_kiloNTD": "27209024",
@@ -164,6 +179,7 @@
       "intdirect_emission_ton": "4260"
     },
     {
+      "industry": "chemical",
       "company": "和桐",
       "year": "2018",
       "revenue_kiloNTD": "30298188",
@@ -182,6 +198,7 @@
       "intdirect_emission_ton": "4279"
     },
     {
+      "industry": "chemical",
       "company": "和桐",
       "year": "2017",
       "revenue_kiloNTD": "31369836",
@@ -200,6 +217,7 @@
       "intdirect_emission_ton": "3007"
     },
     {
+      "industry": "chemical",
       "company": "和桐",
       "year": "2016",
       "revenue_kiloNTD": "30526778",
@@ -211,6 +229,7 @@
       "intdirect_emission_ton": "1120.522"
     },
     {
+      "industry": "chemical",
       "company": "台肥",
       "year": "2021",
       "revenue_kiloNTD": "13659432",
@@ -227,6 +246,7 @@
       "intdirect_emission_ton": "47533"
     },
     {
+      "industry": "chemical",
       "company": "台肥",
       "year": "2020",
       "revenue_kiloNTD": "10170690",
@@ -243,6 +263,7 @@
       "intdirect_emission_ton": "49037"
     },
     {
+      "industry": "chemical",
       "company": "台肥",
       "year": "2019",
       "revenue_kiloNTD": "12941423",
@@ -259,6 +280,7 @@
       "intdirect_emission_ton": "48147"
     },
     {
+      "industry": "chemical",
       "company": "台肥",
       "year": "2018",
       "revenue_kiloNTD": "12173782",
@@ -275,6 +297,7 @@
       "intdirect_emission_ton": "51380"
     },
     {
+      "industry": "chemical",
       "company": "台肥",
       "year": "2017",
       "revenue_kiloNTD": "11643881",
@@ -291,6 +314,7 @@
       "intdirect_emission_ton": "49371"
     },
     {
+      "industry": "chemical",
       "company": "台肥",
       "year": "2016",
       "revenue_kiloNTD": "12557571",
@@ -306,6 +330,7 @@
       "intdirect_emission_ton": "46577"
     },
     {
+      "industry": "chemical",
       "company": "東聯",
       "year": "2021",
       "revenue_kiloNTD": "27481719",
@@ -323,6 +348,7 @@
       "intdirect_emission_ton": "312448.93"
     },
     {
+      "industry": "chemical",
       "company": "東聯",
       "year": "2020",
       "revenue_kiloNTD": "18763159",
@@ -340,6 +366,7 @@
       "intdirect_emission_ton": "296290.51"
     },
     {
+      "industry": "chemical",
       "company": "東聯",
       "year": "2019",
       "revenue_kiloNTD": "22341227",
@@ -356,6 +383,7 @@
       "intdirect_emission_ton": "281344.2"
     },
     {
+      "industry": "chemical",
       "company": "東聯",
       "year": "2018",
       "revenue_kiloNTD": "32115817",
@@ -373,6 +401,7 @@
       "intdirect_emission_ton": "299705.21"
     },
     {
+      "industry": "chemical",
       "company": "東聯",
       "year": "2017",
       "revenue_kiloNTD": "28919810",
@@ -390,6 +419,7 @@
       "intdirect_emission_ton": "290225"
     },
     {
+      "industry": "chemical",
       "company": "東聯",
       "year": "2016",
       "revenue_kiloNTD": "19531054",
@@ -407,6 +437,7 @@
       "intdirect_emission_ton": "292463"
     },
     {
+      "industry": "semiconductor",
       "company": "瑞昱",
       "year": "2021",
       "revenue_kiloNTD": "105504000",
@@ -421,6 +452,7 @@
       "intdirect_emission_ton": "23925.52"
     },
     {
+      "industry": "semiconductor",
       "company": "瑞昱",
       "year": "2020",
       "revenue_kiloNTD": "77759470",
@@ -436,6 +468,7 @@
       "intdirect_emission_ton": "22771.03"
     },
     {
+      "industry": "semiconductor",
       "company": "瑞昱",
       "year": "2019",
       "revenue_kiloNTD": "60744006",
@@ -450,6 +483,7 @@
       "intdirect_emission_ton": "22890.22"
     },
     {
+      "industry": "semiconductor",
       "company": "瑞昱",
       "year": "2018",
       "revenue_kiloNTD": "45805746",
@@ -462,6 +496,7 @@
       "intdirect_emission_ton": "21946"
     },
     {
+      "industry": "semiconductor",
       "company": "瑞昱",
       "year": "2017",
       "revenue_kiloNTD": "41688021",
@@ -474,6 +509,7 @@
       "intdirect_emission_ton": "20605"
     },
     {
+      "industry": "semiconductor",
       "company": "瑞昱",
       "year": "2016",
       "revenue_kiloNTD": "38914031",
@@ -481,6 +517,7 @@
       "water_deg": "117599"
     },
     {
+      "industry": "semiconductor",
       "company": "創意",
       "year": "2021",
       "revenue_kiloNTD": "15107915",
@@ -494,6 +531,7 @@
       "intdirect_emission_ton": "4550.179"
     },
     {
+      "industry": "semiconductor",
       "company": "創意",
       "year": "2020",
       "revenue_kiloNTD": "13569411",
@@ -506,6 +544,7 @@
       "intdirect_emission_ton": "3262"
     },
     {
+      "industry": "semiconductor",
       "company": "創意",
       "year": "2019",
       "revenue_kiloNTD": "10710086",
@@ -517,6 +556,7 @@
       "intdirect_emission_ton": "3579"
     },
     {
+      "industry": "semiconductor",
       "company": "創意",
       "year": "2018",
       "revenue_kiloNTD": "13459840",
@@ -528,6 +568,7 @@
       "intdirect_emission_ton": "3898"
     },
     {
+      "industry": "semiconductor",
       "company": "創意",
       "year": "2017",
       "revenue_kiloNTD": "12160610",
@@ -539,12 +580,14 @@
       "intdirect_emission_ton": "3555"
     },
     {
+      "industry": "semiconductor",
       "company": "創意",
       "year": "2016",
       "total_emission_ton": "3329",
       "intdirect_emission_ton": "3329"
     },
     {
+      "industry": "semiconductor",
       "company": "力積電",
       "year": "2021",
       "revenue_kiloNTD": "65622945",
@@ -558,6 +601,7 @@
       "intdirect_emission_ton": "570181"
     },
     {
+      "industry": "semiconductor",
       "company": "力積電",
       "year": "2020",
       "revenue_kiloNTD": "45684615",
@@ -570,6 +614,7 @@
       "intdirect_emission_ton": "565128"
     },
     {
+      "industry": "semiconductor",
       "company": "力積電",
       "year": "2019",
       "capital": "2705196569",
@@ -582,6 +627,7 @@
       "intdirect_emission_ton": "548034"
     },
     {
+      "industry": "semiconductor",
       "company": "力積電",
       "year": "2018",
       "revenue_kiloNTD": "7637449",
@@ -596,6 +642,7 @@
       "intdirect_emission_ton": "552565"
     },
     {
+      "industry": "semiconductor",
       "company": "力積電",
       "year": "2017",
       "revenue_kiloNTD": "6236632",
@@ -606,6 +653,7 @@
       "waste_ton": "15010.14"
     },
     {
+      "industry": "semiconductor",
       "company": "力積電",
       "year": "2016",
       "revenue_kiloNTD": "5919892",
@@ -615,6 +663,7 @@
       "waste_ton": "13742.94"
     },
     {
+      "industry": "semiconductor",
       "company": "華邦電",
       "year": "2021",
       "revenue_kiloNTD": "99570000",
@@ -628,6 +677,7 @@
       "intdirect_emission_ton": "277284"
     },
     {
+      "industry": "semiconductor",
       "company": "華邦電",
       "year": "2020",
       "revenue_kiloNTD": "60683000",
@@ -641,6 +691,7 @@
       "intdirect_emission_ton": "278046"
     },
     {
+      "industry": "semiconductor",
       "company": "華邦電",
       "year": "2019",
       "revenue_kiloNTD": "48771000",
@@ -654,6 +705,7 @@
       "intdirect_emission_ton": "268947"
     },
     {
+      "industry": "semiconductor",
       "company": "華邦電",
       "year": "2018",
       "revenue_kiloNTD": "51190000",
@@ -667,6 +719,7 @@
       "intdirect_emission_ton": "276060"
     },
     {
+      "industry": "semiconductor",
       "company": "華邦電",
       "year": "2017",
       "revenue_kiloNTD": "47592000",
@@ -681,6 +734,7 @@
       "intdirect_emission_ton": "250859"
     },
     {
+      "industry": "semiconductor",
       "company": "華邦電",
       "year": "2016",
       "revenue_kiloNTD": "42090000",
@@ -694,42 +748,49 @@
       "intdirect_emission_ton": "206301"
     },
     {
+      "industry": "semiconductor",
       "company": "矽力KY",
       "year": "2021",
       "revenue_kiloNTD": "23510000",
       "capital": "943566880"
     },
     {
+      "industry": "semiconductor",
       "company": "矽力KY",
       "year": "2020",
       "revenue_kiloNTD": "21510000",
       "capital": "929014450"
     },
     {
+      "industry": "semiconductor",
       "company": "矽力KY",
       "year": "2019",
       "revenue_kiloNTD": "13880000",
       "capital": "914801740"
     },
     {
+      "industry": "semiconductor",
       "company": "矽力KY",
       "year": "2018",
       "revenue_kiloNTD": "9410000",
       "capital": "902565680"
     },
     {
+      "industry": "semiconductor",
       "company": "矽力KY",
       "year": "2017",
       "revenue_kiloNTD": "8600000",
       "capital": "877326120"
     },
     {
+      "industry": "semiconductor",
       "company": "矽力KY",
       "year": "2016",
       "revenue_kiloNTD": "7140000",
       "capital": "840231570"
     },
     {
+      "industry": "semiconductor",
       "company": "祥碩",
       "year": "2021",
       "revenue_kiloNTD": "6009012",
@@ -738,6 +799,7 @@
       "water_deg": "2218"
     },
     {
+      "industry": "semiconductor",
       "company": "祥碩",
       "year": "2020",
       "revenue_kiloNTD": "6987470",
@@ -746,6 +808,7 @@
       "water_deg": "2396"
     },
     {
+      "industry": "semiconductor",
       "company": "祥碩",
       "year": "2019",
       "revenue_kiloNTD": "3746124",
@@ -753,6 +816,7 @@
       "water_deg": "2168"
     },
     {
+      "industry": "semiconductor",
       "company": "祥碩",
       "year": "2018",
       "revenue_kiloNTD": "3722351",
@@ -760,6 +824,7 @@
       "water_deg": "2174"
     },
     {
+      "industry": "semiconductor",
       "company": "祥碩",
       "year": "2017",
       "revenue_kiloNTD": "2980000",
@@ -768,16 +833,18 @@
       "water_deg": "1833"
     },
     {
+      "industry": "semiconductor",
       "company": "祥碩",
       "year": "2016",
       "revenue_kiloNTD": "2060000",
       "capital": "570707800"
     },
     {
+      "industry": "semiconductor",
       "company": "台積電",
       "year": "2021",
       "revenue_kiloNTD": "1587415037",
-      "capital": "2.59325E+11",
+      "capital": "259325000000",
       "electricity_deg": "18080000000",
       "wsewage_milL": "55.05",
       "waste_ton": "828593",
@@ -787,10 +854,11 @@
       "intdirect_emission_ton": "8152497"
     },
     {
+      "industry": "semiconductor",
       "company": "台積電",
       "year": "2020",
       "revenue_kiloNTD": "1339254811",
-      "capital": "2.59325E+11",
+      "capital": "259325000000",
       "electricity_deg": "16058000000",
       "wsewage_milL": "51.81",
       "waste_ton": "705850",
@@ -800,10 +868,11 @@
       "intdirect_emission_ton": "7459856"
     },
     {
+      "industry": "semiconductor",
       "company": "台積電",
       "year": "2019",
       "revenue_kiloNTD": "1069985448",
-      "capital": "2.59325E+11",
+      "capital": "259325000000",
       "electricity_deg": "13576000000",
       "wsewage_milL": "43.11",
       "waste_ton": "508309",
@@ -813,10 +882,11 @@
       "intdirect_emission_ton": "6697871"
     },
     {
+      "industry": "semiconductor",
       "company": "台積電",
       "year": "2018",
       "revenue_kiloNTD": "1031473557",
-      "capital": "2.59325E+11",
+      "capital": "259325000000",
       "electricity_deg": "12441000000",
       "wsewage_milL": "37.83",
       "waste_ton": "473756",
@@ -826,10 +896,11 @@
       "intdirect_emission_ton": "6349642"
     },
     {
+      "industry": "semiconductor",
       "company": "台積電",
       "year": "2017",
       "revenue_kiloNTD": "977447241",
-      "capital": "2.59325E+11",
+      "capital": "259325000000",
       "electricity_deg": "11388000000",
       "wsewage_milL": "32.26",
       "waste_ton": "425626",
@@ -839,10 +910,11 @@
       "intdirect_emission_ton": "6080212"
     },
     {
+      "industry": "semiconductor",
       "company": "台積電",
       "year": "2016",
       "revenue_kiloNTD": "947938344",
-      "capital": "2.59325E+11",
+      "capital": "259325000000",
       "electricity_deg": "9358000000",
       "wsewage_milL": "26.2",
       "waste_ton": "338873",
@@ -852,6 +924,7 @@
       "intdirect_emission_ton": "5378443"
     },
     {
+      "industry": "semiconductor",
       "company": "聯發科",
       "year": "2021",
       "revenue_kiloNTD": "493414582",
@@ -866,6 +939,7 @@
       "intdirect_emission_ton": "61992"
     },
     {
+      "industry": "semiconductor",
       "company": "聯發科",
       "year": "2020",
       "revenue_kiloNTD": "322145988",
@@ -880,6 +954,7 @@
       "intdirect_emission_ton": "52072"
     },
     {
+      "industry": "semiconductor",
       "company": "聯發科",
       "year": "2019",
       "revenue_kiloNTD": "246221731",
@@ -894,6 +969,7 @@
       "intdirect_emission_ton": "48985"
     },
     {
+      "industry": "semiconductor",
       "company": "聯發科",
       "year": "2018",
       "revenue_kiloNTD": "238057346",
@@ -905,6 +981,7 @@
       "intdirect_emission_ton": "37941"
     },
     {
+      "industry": "semiconductor",
       "company": "聯發科",
       "year": "2017",
       "capital": "15996291970",
@@ -915,6 +992,7 @@
       "intdirect_emission_ton": "37070"
     },
     {
+      "industry": "semiconductor",
       "company": "聯發科",
       "year": "2016",
       "capital": "15996291970",
@@ -925,6 +1003,7 @@
       "intdirect_emission_ton": "35511"
     },
     {
+      "industry": "semiconductor",
       "company": "聯電",
       "year": "2021",
       "electricity_deg": "3589923000",
@@ -938,6 +1017,7 @@
       "intdirect_emission_ton": "1298439"
     },
     {
+      "industry": "semiconductor",
       "company": "聯電",
       "year": "2020",
       "electricity_deg": "3478680000",
@@ -951,6 +1031,7 @@
       "intdirect_emission_ton": "1287248"
     },
     {
+      "industry": "semiconductor",
       "company": "聯電",
       "year": "2019",
       "electricity_deg": "3077124000",
@@ -964,6 +1045,7 @@
       "intdirect_emission_ton": "1317572"
     },
     {
+      "industry": "semiconductor",
       "company": "聯電",
       "year": "2018",
       "electricity_deg": "3052684000",
@@ -977,6 +1059,7 @@
       "intdirect_emission_ton": "1364947"
     },
     {
+      "industry": "semiconductor",
       "company": "聯電",
       "year": "2017",
       "electricity_deg": "2942826000",
@@ -989,6 +1072,7 @@
       "intdirect_emission_ton": "1356479"
     },
     {
+      "industry": "semiconductor",
       "company": "聯電",
       "year": "2016",
       "electricity_deg": "2476203000",
@@ -1001,6 +1085,7 @@
       "intdirect_emission_ton": "1186435"
     },
     {
+      "industry": "semiconductor",
       "company": "日月光",
       "year": "2021",
       "electricity_deg": "4285155000",
@@ -1016,6 +1101,7 @@
       "intdirect_emission_ton": "1612049"
     },
     {
+      "industry": "semiconductor",
       "company": "日月光",
       "year": "2020",
       "electricity_deg": "3900915000",
@@ -1031,6 +1117,7 @@
       "intdirect_emission_ton": "1658606"
     },
     {
+      "industry": "semiconductor",
       "company": "日月光",
       "year": "2019",
       "electricity_deg": "3588896000",
@@ -1046,6 +1133,7 @@
       "intdirect_emission_ton": "1695223"
     },
     {
+      "industry": "semiconductor",
       "company": "日月光",
       "year": "2018",
       "electricity_deg": "3130150000",
@@ -1061,6 +1149,7 @@
       "intdirect_emission_ton": "1735097"
     },
     {
+      "industry": "semiconductor",
       "company": "日月光",
       "year": "2017",
       "electricity_deg": "2300523000",
@@ -1073,6 +1162,7 @@
       "total_energy_kiloDeg": "3310931"
     },
     {
+      "industry": "semiconductor",
       "company": "日月光",
       "year": "2016",
       "electricity_deg": "2229426000",
@@ -1085,6 +1175,7 @@
       "total_energy_kiloDeg": "3369827"
     },
     {
+      "industry": "semiconductor",
       "company": "聯詠",
       "year": "2021",
       "electricity_deg": "12086706",
@@ -1099,6 +1190,7 @@
       "intdirect_emission_ton": "17024.3129"
     },
     {
+      "industry": "semiconductor",
       "company": "聯詠",
       "year": "2020",
       "electricity_deg": "109538737",
@@ -1112,6 +1204,7 @@
       "intdirect_emission_ton": "15487.56"
     },
     {
+      "industry": "semiconductor",
       "company": "聯詠",
       "year": "2019",
       "electricity_deg": "91582441",
@@ -1123,6 +1216,7 @@
       "intdirect_emission_ton": "13559.29"
     },
     {
+      "industry": "semiconductor",
       "company": "聯詠",
       "year": "2018",
       "electricity_deg": "70403882",
@@ -1133,6 +1227,7 @@
       "intdirect_emission_ton": "10834.38"
     },
     {
+      "industry": "semiconductor",
       "company": "聯詠",
       "year": "2017",
       "electricity_deg": "60728926",
@@ -1142,6 +1237,7 @@
       "intdirect_emission_ton": "8923.78"
     },
     {
+      "industry": "semiconductor",
       "company": "聯詠",
       "year": "2016",
       "electricity_deg": "55939770",
@@ -1152,6 +1248,7 @@
       "intdirect_emission_ton": "8204.5"
     },
     {
+      "industry": "semiconductor",
       "company": "南亞科",
       "year": "2021",
       "electricity_deg": "731387000",
@@ -1165,6 +1262,7 @@
       "intdirect_emission_ton": "373639"
     },
     {
+      "industry": "semiconductor",
       "company": "南亞科",
       "year": "2020",
       "electricity_deg": "712924000",
@@ -1178,6 +1276,7 @@
       "intdirect_emission_ton": "379417"
     },
     {
+      "industry": "semiconductor",
       "company": "南亞科",
       "year": "2019",
       "electricity_deg": "708892000",
@@ -1191,6 +1290,7 @@
       "intdirect_emission_ton": "390021"
     },
     {
+      "industry": "semiconductor",
       "company": "南亞科",
       "year": "2018",
       "electricity_deg": "645387000",
@@ -1204,6 +1304,7 @@
       "intdirect_emission_ton": "369904"
     },
     {
+      "industry": "semiconductor",
       "company": "南亞科",
       "year": "2017",
       "electricity_deg": "575893000",
@@ -1216,6 +1317,7 @@
       "intdirect_emission_ton": "316442"
     },
     {
+      "industry": "semiconductor",
       "company": "南亞科",
       "year": "2016",
       "electricity_deg": "10070000",
@@ -1229,6 +1331,7 @@
       "intdirect_emission_ton": "238437"
     },
     {
+      "industry": "semiconductor",
       "company": "台泥",
       "year": "2021",
       "electricity_deg": "439072200",
@@ -1242,6 +1345,7 @@
       "intdirect_emission_ton": "212407"
     },
     {
+      "industry": "cement",
       "company": "台泥",
       "year": "2020",
       "electricity_deg": "411590600",
@@ -1254,6 +1358,7 @@
       "intdirect_emission_ton": "202312"
     },
     {
+      "industry": "cement",
       "company": "台泥",
       "year": "2019",
       "electricity_deg": "433000000",
@@ -1266,6 +1371,7 @@
       "intdirect_emission_ton": "223096"
     },
     {
+      "industry": "cement",
       "company": "台泥",
       "year": "2018",
       "electricity_deg": "467000000",
@@ -1278,6 +1384,7 @@
       "intdirect_emission_ton": "247702"
     },
     {
+      "industry": "cement",
       "company": "台泥",
       "year": "2017",
       "electricity_deg": "470000000",
@@ -1290,6 +1397,7 @@
       "intdirect_emission_ton": "241691"
     },
     {
+      "industry": "cement",
       "company": "台泥",
       "year": "2016",
       "electricity_deg": "489000000",
@@ -1302,6 +1410,7 @@
       "intdirect_emission_ton": "253768"
     },
     {
+      "industry": "cement",
       "company": "環泥",
       "year": "2021",
       "electricity_deg": "18700000",
@@ -1313,6 +1422,7 @@
       "total_emission_ton": "9677"
     },
     {
+      "industry": "cement",
       "company": "環泥",
       "year": "2020",
       "electricity_deg": "20600000",
@@ -1324,6 +1434,7 @@
       "total_emission_ton": "10493"
     },
     {
+      "industry": "cement",
       "company": "環泥",
       "year": "2019",
       "electricity_deg": "18600000",
@@ -1337,6 +1448,7 @@
       "total_emission_ton": "9617"
     },
     {
+      "industry": "cement",
       "company": "環泥",
       "year": "2018",
       "electricity_deg": "29770000",
@@ -1347,6 +1459,7 @@
       "NG_GJ": "146.139"
     },
     {
+      "industry": "cement",
       "company": "環泥",
       "year": "2017",
       "electricity_deg": "29670000",
@@ -1357,12 +1470,14 @@
       "NG_GJ": "274.842"
     },
     {
+      "industry": "cement",
       "company": "環泥",
       "year": "2016",
       "electricity_deg": "30560000",
       "water_deg": "102052"
     },
     {
+      "industry": "cement",
       "company": "亞泥",
       "year": "2021",
       "electricity_deg": "343055600",
@@ -1378,6 +1493,7 @@
       "intdirect_emission_ton": "170000"
     },
     {
+      "industry": "cement",
       "company": "亞泥",
       "year": "2020",
       "electricity_deg": "344666700",
@@ -1393,6 +1509,7 @@
       "intdirect_emission_ton": "170000"
     },
     {
+      "industry": "cement",
       "company": "亞泥",
       "year": "2019",
       "electricity_deg": "320555600",
@@ -1408,6 +1525,7 @@
       "intdirect_emission_ton": "160000"
     },
     {
+      "industry": "cement",
       "company": "亞泥",
       "year": "2018",
       "electricity_deg": "393092000",
@@ -1423,6 +1541,7 @@
       "intdirect_emission_ton": "170000"
     },
     {
+      "industry": "cement",
       "company": "亞泥",
       "year": "2017",
       "electricity_deg": "328435000",
@@ -1434,6 +1553,7 @@
       "intdirect_emission_ton": "173800"
     },
     {
+      "industry": "cement",
       "company": "亞泥",
       "year": "2016",
       "water_deg": "2759158",
@@ -1442,6 +1562,7 @@
       "intdirect_emission_ton": "190000"
     },
     {
+      "industry": "cement",
       "company": "嘉泥",
       "year": "2021",
       "electricity_deg": "12407277",
@@ -1452,6 +1573,7 @@
       "intdirect_emission_ton": "4007.197"
     },
     {
+      "industry": "cement",
       "company": "嘉泥",
       "year": "2020",
       "electricity_deg": "11647200",
@@ -1462,6 +1584,7 @@
       "intdirect_emission_ton": "77.1415"
     },
     {
+      "industry": "cement",
       "company": "嘉泥",
       "year": "2019",
       "electricity_deg": "11408600",
@@ -1470,6 +1593,7 @@
       "total_emission_ton": "5690"
     },
     {
+      "industry": "cement",
       "company": "嘉泥",
       "year": "2018",
       "electricity_deg": "11162400",
@@ -1477,18 +1601,21 @@
       "waste_ton": "171.6"
     },
     {
+      "industry": "cement",
       "company": "嘉泥",
       "year": "2017",
       "electricity_deg": "3838200",
       "water_deg": "28776"
     },
     {
+      "industry": "cement",
       "company": "嘉泥",
       "year": "2016",
       "electricity_deg": "4128800",
       "water_deg": "26594"
     },
     {
+      "industry": "cement",
       "company": "東泥",
       "year": "2021",
       "electricity_deg": "41595386",
@@ -1497,6 +1624,7 @@
       "intdirect_emission_ton": "2738"
     },
     {
+      "industry": "cement",
       "company": "東泥",
       "year": "2020",
       "electricity_deg": "42007000",
@@ -1505,6 +1633,7 @@
       "intdirect_emission_ton": "2640"
     },
     {
+      "industry": "cement",
       "company": "東泥",
       "year": "2019",
       "electricity_deg": "41172000",
@@ -1513,6 +1642,7 @@
       "intdirect_emission_ton": "2429"
     },
     {
+      "industry": "cement",
       "company": "東泥",
       "year": "2018",
       "electricity_deg": "40161600",
@@ -1522,6 +1652,7 @@
       "intdirect_emission_ton": "2639"
     },
     {
+      "industry": "cement",
       "company": "東泥",
       "year": "2017",
       "electricity_deg": "39372000",
@@ -1531,6 +1662,7 @@
       "intdirect_emission_ton": "234"
     },
     {
+      "industry": "cement",
       "company": "東泥",
       "year": "2016",
       "electricity_deg": "47990224",
@@ -1540,38 +1672,12 @@
       "intdirect_emission_ton": "241314"
     },
     {
-      "company": "信大",
-      "year": "2021"
-    },
-    {
-      "company": "信大",
-      "year": "2020"
-    },
-    {
-      "company": "信大",
-      "year": "2019"
-    },
-    {
-      "company": "信大",
-      "year": "2018"
-    },
-    {
-      "company": "信大",
-      "year": "2017",
-      "electricity_deg": "77040624",
-      "water_deg": "180171"
-    },
-    {
-      "company": "信大",
-      "year": "2016",
-      "electricity_deg": "84710400",
-      "water_deg": "334134"
-    },
-    {
+      "industry": "chemical",
       "company": "台硝",
       "year": "2021"
     },
     {
+      "industry": "chemical",
       "company": "台硝",
       "year": "2020",
       "revenue_kiloNTD": "1746339",
@@ -1588,6 +1694,7 @@
       "intdirect_emission_ton": "18889.1936"
     },
     {
+      "industry": "chemical",
       "company": "台硝",
       "year": "2019",
       "revenue_kiloNTD": "1901165",
@@ -1604,6 +1711,7 @@
       "intdirect_emission_ton": "19603.3136"
     },
     {
+      "industry": "chemical",
       "company": "台硝",
       "year": "2018",
       "revenue_kiloNTD": "2010815",
@@ -1620,6 +1728,7 @@
       "intdirect_emission_ton": "19464.0144"
     },
     {
+      "industry": "chemical",
       "company": "台硝",
       "year": "2017",
       "revenue_kiloNTD": "2100577",
@@ -1636,6 +1745,7 @@
       "intdirect_emission_ton": "17394.049"
     },
     {
+      "industry": "chemical",
       "company": "台硝",
       "year": "2016",
       "revenue_kiloNTD": "2100890",
@@ -1653,10 +1763,12 @@
       "intdirect_emission_ton": "15329.424"
     },
     {
+      "industry": "chemical",
       "company": "中碳",
       "year": "2021"
     },
     {
+      "industry": "chemical",
       "company": "中碳",
       "year": "2020",
       "revenue_kiloNTD": "183842",
@@ -1673,6 +1785,7 @@
       "intdirect_emission_ton": "58296.89"
     },
     {
+      "industry": "chemical",
       "company": "中碳",
       "year": "2019",
       "revenue_kiloNTD": "207298",
@@ -1689,6 +1802,7 @@
       "intdirect_emission_ton": "59118.55"
     },
     {
+      "industry": "chemical",
       "company": "中碳",
       "year": "2018",
       "revenue_kiloNTD": "235403",
@@ -1703,6 +1817,7 @@
       "intdirect_emission_ton": "68458.65"
     },
     {
+      "industry": "chemical",
       "company": "中碳",
       "year": "2017",
       "revenue_kiloNTD": "207100",
@@ -1717,6 +1832,7 @@
       "intdirect_emission_ton": "59967.45"
     },
     {
+      "industry": "chemical",
       "company": "中碳",
       "year": "2016",
       "revenue_kiloNTD": "168927",
@@ -1731,10 +1847,11 @@
       "intdirect_emission_ton": "62468.24"
     },
     {
+      "industry": "chemical",
       "company": "南亞",
       "year": "2021",
       "revenue_kiloNTD": "411670",
-      "capital": "7.9382E+11",
+      "capital": "793820000000",
       "electricity_deg": "728787",
       "water_deg": "3456.524",
       "wsewage_milL": "2718.373",
@@ -1746,10 +1863,11 @@
       "intdirect_emission_ton": "373639"
     },
     {
+      "industry": "chemical",
       "company": "南亞",
       "year": "2020",
       "revenue_kiloNTD": "273353",
-      "capital": "7.9382E+11",
+      "capital": "793820000000",
       "electricity_deg": "712562",
       "water_deg": "3368.954",
       "wsewage_milL": "2705.126",
@@ -1761,10 +1879,11 @@
       "intdirect_emission_ton": "90327"
     },
     {
+      "industry": "chemical",
       "company": "南亞",
       "year": "2019",
       "revenue_kiloNTD": "286303",
-      "capital": "7.9382E+11",
+      "capital": "793820000000",
       "electricity_deg": "708892",
       "water_deg": "3258.386",
       "wsewage_milL": "2633.701",
@@ -1776,10 +1895,11 @@
       "intdirect_emission_ton": "88701"
     },
     {
+      "industry": "chemical",
       "company": "南亞",
       "year": "2018",
       "revenue_kiloNTD": "333061",
-      "capital": "7.9382E+11",
+      "capital": "793820000000",
       "electricity_deg": "645387",
       "water_deg": "3022.362",
       "wsewage_milL": "2495.9",
@@ -1791,10 +1911,11 @@
       "intdirect_emission_ton": "78312"
     },
     {
+      "industry": "chemical",
       "company": "南亞",
       "year": "2017",
       "revenue_kiloNTD": "306139",
-      "capital": "7.9382E+11",
+      "capital": "793820000000",
       "electricity_deg": "575893",
       "water_deg": "3092.814",
       "wsewage_milL": "2574.479",
@@ -1807,10 +1928,11 @@
       "intdirect_emission_ton": "315140.825"
     },
     {
+      "industry": "chemical",
       "company": "南亞",
       "year": "2016",
       "revenue_kiloNTD": "275300",
-      "capital": "7.9382E+11",
+      "capital": "793820000000",
       "electricity_deg": "429719",
       "water_deg": "2244.79",
       "wsewage_milL": "1866.364",
@@ -1823,20 +1945,22 @@
       "intdirect_emission_ton": "238436.6"
     },
     {
+      "industry": "chemical",
       "company": "台塑",
       "year": "2021",
       "revenue_kiloNTD": "273600000",
-      "capital": "6.3657E+11",
+      "capital": "636570000000",
       "water_deg": "39100.67",
       "wsewage_milL": "14498.46",
       "waste_ton": "238447",
       "total_energy_kiloDeg": "222719"
     },
     {
+      "industry": "chemical",
       "company": "台塑",
       "year": "2020",
       "revenue_kiloNTD": "185800000",
-      "capital": "6.3657E+11",
+      "capital": "636570000000",
       "water_deg": "38157.13",
       "wsewage_milL": "14328.22",
       "waste_ton": "213344",
@@ -1846,10 +1970,11 @@
       "intdirect_emission_ton": "4668706"
     },
     {
+      "industry": "chemical",
       "company": "台塑",
       "year": "2019",
       "revenue_kiloNTD": "207800000",
-      "capital": "6.3657E+11",
+      "capital": "636570000000",
       "water_deg": "37055.68",
       "wsewage_milL": "13720.33",
       "waste_ton": "197190",
@@ -1859,10 +1984,11 @@
       "intdirect_emission_ton": "4981555"
     },
     {
+      "industry": "chemical",
       "company": "台塑",
       "year": "2018",
       "revenue_kiloNTD": "230300000",
-      "capital": "6.3657E+11",
+      "capital": "636570000000",
       "water_deg": "37867.08",
       "wsewage_milL": "13644",
       "waste_ton": "237931",
@@ -1872,10 +1998,11 @@
       "intdirect_emission_ton": "5008477"
     },
     {
+      "industry": "chemical",
       "company": "台塑",
       "year": "2017",
       "revenue_kiloNTD": "206100000",
-      "capital": "6.3657E+11",
+      "capital": "636570000000",
       "water_deg": "38245.18",
       "wsewage_milL": "13503",
       "waste_ton": "277084",
@@ -1885,10 +2012,11 @@
       "intdirect_emission_ton": "5183854"
     },
     {
+      "industry": "chemical",
       "company": "台塑",
       "year": "2016",
       "revenue_kiloNTD": "180200000",
-      "capital": "6.3657E+11",
+      "capital": "636570000000",
       "water_deg": "34395.47",
       "wsewage_milL": "14230",
       "waste_ton": "268332",
@@ -1898,12 +2026,14 @@
       "intdirect_emission_ton": "4871848"
     },
     {
+      "industry": "chemical",
       "company": "台塑化",
       "year": "2021",
       "revenue_kiloNTD": "620062",
       "capital": "95259596520"
     },
     {
+      "industry": "chemical",
       "company": "台塑化",
       "year": "2020",
       "revenue_kiloNTD": "415281",
@@ -1916,6 +2046,7 @@
       "intdirect_emission_ton": "136173"
     },
     {
+      "industry": "chemical",
       "company": "台塑化",
       "year": "2019",
       "revenue_kiloNTD": "604348",
@@ -1928,6 +2059,7 @@
       "intdirect_emission_ton": "108520"
     },
     {
+      "industry": "chemical",
       "company": "台塑化",
       "year": "2018",
       "revenue_kiloNTD": "722848",
@@ -1940,6 +2072,7 @@
       "intdirect_emission_ton": "162266"
     },
     {
+      "industry": "chemical",
       "company": "台塑化",
       "year": "2017",
       "revenue_kiloNTD": "583769",
@@ -1952,6 +2085,7 @@
       "intdirect_emission_ton": "111809"
     },
     {
+      "industry": "chemical",
       "company": "台塑化",
       "year": "2016",
       "revenue_kiloNTD": "509093",
@@ -1964,6 +2098,7 @@
       "intdirect_emission_ton": "108824"
     },
     {
+      "industry": "chemical",
       "company": "遠東新",
       "year": "2021",
       "revenue_kiloNTD": "239183619",
@@ -1977,6 +2112,7 @@
       "total_emission_ton": "2486000"
     },
     {
+      "industry": "chemical",
       "company": "遠東新",
       "year": "2020",
       "revenue_kiloNTD": "206860662",
@@ -1990,6 +2126,7 @@
       "total_emission_ton": "2432000"
     },
     {
+      "industry": "chemical",
       "company": "遠東新",
       "year": "2019",
       "revenue_kiloNTD": "249921685",
@@ -2003,6 +2140,7 @@
       "total_emission_ton": "1953000"
     },
     {
+      "industry": "chemical",
       "company": "遠東新",
       "year": "2018",
       "revenue_kiloNTD": "228468086",
@@ -2016,6 +2154,7 @@
       "total_emission_ton": "1809000"
     },
     {
+      "industry": "chemical",
       "company": "遠東新",
       "year": "2017",
       "revenue_kiloNTD": "217825522",
@@ -2029,6 +2168,7 @@
       "total_emission_ton": "1884000"
     },
     {
+      "industry": "chemical",
       "company": "遠東新",
       "year": "2016",
       "revenue_kiloNTD": "215874791",
