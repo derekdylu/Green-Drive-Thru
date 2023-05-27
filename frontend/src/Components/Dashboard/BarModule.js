@@ -6,12 +6,12 @@ import { AxisLeft, AxisBottom } from '@visx/axis';
 import { GridRows } from '@visx/grid';
 import { scaleLinear, scaleBand } from '@visx/scale';
 
-const Dashboard = ({_data, property, industry, big, color, companyMode}) => {
+const BarModule = ({_data, property, industry, big, color, companyMode}) => {
   let data = _data.filter(d => d[property] !== undefined)
   data = industry === "all" ? data : data.filter(d => d.industry === industry)
 
   // Define the graph dimensions and margins
-  const width = big ? 900 : 600
+  const width = big ? 720 : 500
   const height = 300;
   const margin = { top: 20, right: 20, bottom: 20, left: 80 };
 
@@ -92,4 +92,4 @@ const Dashboard = ({_data, property, industry, big, color, companyMode}) => {
   )
 }
 
-export default Dashboard
+export default BarModule

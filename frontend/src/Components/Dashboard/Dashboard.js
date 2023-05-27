@@ -1,32 +1,15 @@
 import React, { useState, useEffect } from "react"
 
-import Module from "./Module.js";
+import BarModule from "./BarModule.js";
+import PieModule from "./PieModule.js";
+import InfoModule from "./InfoModule.js";
 
 import esg_data from "../../Data/data.json";
-
-const colorList = [
-  {
-    "tag": "#228C22",
-    "name": "綠色"
-  },
-  {
-    "tag": "#F0833C",
-    "name": "橘色"
-  },
-  {
-    "tag": "#36438B",
-    "name": "藍色"
-  },
-  {
-    "tag": "#193632",
-    "name": "深色"
-  }
-]
 
 const industryList = [
   {
     "tag": "all",
-    "name": "全部產業",
+    "name": "全部",
   },
   {
     "tag": "cement",
@@ -43,6 +26,43 @@ const industryList = [
   {
     "tag": "chemical",
     "name": "化工",
+  }
+]
+
+const combinedPropertyList = [
+  {
+    "tag": "combined_emission",
+    "name": "直/間接溫室氣體排放量(公噸)",
+    "attributes": [
+      "direct_emission_ton",
+      "intdirect_emission_ton",
+    ],
+    "attributesName": [
+      "直接(範疇一)",
+      "間接(範疇二)",
+    ]
+  },
+  {
+    "tag": "combined_energy",
+    "name": "內部能量消耗分佈(GJ)",
+    "attributes": [
+      "gasoline_GJ",
+      "diesel_GJ",
+      "heavy_oil_GJ",
+      "LPG_GJ",
+      "NG_GJ",
+      "coal_GJ",
+      "steam_GJ",
+    ],
+    "attributesName": [
+      "汽油",
+      "柴油",
+      "重油",
+      "液化石油氣",
+      "天然氣",
+      "煤炭",
+      "蒸汽",
+    ]
   }
 ]
 
@@ -80,7 +100,7 @@ const propertyList = [
     "name": "總溫室氣體排放量(公噸)"
   },
   {
-    "tag": "tdirect_emission_ton",
+    "tag": "direct_emission_ton",
     "name": "直接溫室氣體排放量(公噸)"
   },
   {
@@ -128,40 +148,53 @@ const yearList = [
 
 const companyList = [...esg_data.data.map(d => d.company).filter((item, i, ar) => ar.indexOf(item) === i)]
 
-const Dashboard = ({index, deleteDashboard}) => {
+const Dashboard = ({type}) => {
   const [property, setProperty] = useState("revenue_kiloNTD")
   const [year, setYear] = useState("2021")
   const [industry, setIndustry] = useState("all")
-  const [data, setData] = useState(esg_data.data)
-  const [big, setBig] = useState(false)
   const [color, setColor] = useState("#228C22")
   const [company, setCompany] = useState(companyList[0])
   const [companyMode, setCompanyMode] = useState(false)
+  const [combinedProperty, setCombinedProperty] = useState(combinedPropertyList[0])
+  
+  const [barData, setBarData] = useState(esg_data.data)
+  const [pieData, setPieData] = useState(esg_data.data)
 
   useEffect(() => {
-    companyMode ? setData(esg_data.data.filter(d => d.company === company)) : setData(esg_data.data.filter(d => d.year === year))
+    if (type === "bar") {
+      setColor("#228C22")
+      return
+    }
+    if (type === "pie") {
+      setColor("#36438B")
+      return
+    }
+    if (type === "info") {
+      setColor("#F0833C")
+      return
+    }
+  }, [type])
+
+  useEffect(() => {
+    companyMode ? setBarData(esg_data.data.filter(d => d.company === company)) : setBarData(esg_data.data.filter(d => d.year === year))
+    setPieData(esg_data.data.filter(d => d.company === company).filter(d => d.year === year))
   }, [companyMode, company, year, property, industry])
 
   return (
     <div className="flex flex-col items-center w-min h-min rounded-3xl bg-zinc-100">
-      <div className="flex flex-row w-full items-center justify-around mx-2 p-2 my-3">
+    {
+      type === "bar" && (
+      <div className="flex flex-row w-full items-center justify-around p-2 mx-2 my-3">
         <select className="mx-2" name="color select" id="color select" onChange={(e) => {setCompanyMode(!companyMode)}}>
-          <option>依年度</option>
-          <option>依公司</option>
-        </select>
-        <select className="mx-2" name="color select" id="color select" onChange={(e) => {setColor(e.target.value)}}>
-          {
-            colorList.map((c, i) => {
-              return <option value={c.tag} id={i}>{c.name}</option>
-            })
-          }
+          <option>年度</option>
+          <option>公司</option>
         </select>
         {
           !companyMode ? (
             <select className="mx-2" name="industry select" id="industry select" onChange={(e) => {setIndustry(e.target.value)}}>
               {
                 industryList.map((ids, i) => {
-                  return <option value={ids.tag} id={i}>{ids.name}</option>
+                  return <option value={ids.tag} id={i} key={i}>{ids.name}</option>
                 })
               }
             </select>
@@ -169,7 +202,7 @@ const Dashboard = ({index, deleteDashboard}) => {
             <select className="mx-2" name="company select" id="company select" onChange={(e) => {setCompany(e.target.value)}}>
               {
                 companyList.map((c, i) => {
-                  return <option value={c} id={i}>{c}</option>
+                  return <option value={c} id={i} key={i}>{c}</option>
                 })
               }
             </select>
@@ -178,7 +211,7 @@ const Dashboard = ({index, deleteDashboard}) => {
         <select className="mx-2" name="property select" id="property select" onChange={(e) => {setProperty(e.target.value)}}>
           {
             propertyList.map((p, i) => {
-              return <option value={p.tag} id={i}>{p.name}</option>
+              return <option value={p.tag} id={i} key={i}>{p.name}</option>
             })
           }
         </select>
@@ -187,25 +220,92 @@ const Dashboard = ({index, deleteDashboard}) => {
             <select className="mx-2" name="year select" id="year select" onChange={(e) => {setYear(e.target.value)}}>
               {
                 yearList.slice(0,-1).map((y, i) => {
-                  return <option value={y} id={i}>{y}</option>
+                  return <option value={y} id={i} key={i}>{y}</option>
                 })
               }
               {
                 yearList.slice(-1).map((y, i) => {
-                  return <option value={y} id={i} selected>{y}</option>
+                  return <option value={y} id={i} key={i} selected>{y}</option>
                 })
               }
             </select>
           )
         }
-        <button className="mx-2" onClick={() => {setBig(!big)}}>
-        {
-          big ? "◀" : "▶"
-        }
-        </button>
       </div>
-      <div className="">
-        <Module _data={data} property={property} industry={industry} big={big} color={color} companyMode={companyMode} />
+      )}
+      {
+      type === "pie" && (
+      <div className="flex flex-row w-full items-center justify-around p-2 mx-2 my-3">
+        <select className="mx-2" name="company select" id="company select" onChange={(e) => {setCompany(e.target.value)}}>
+          {
+            companyList.map((c, i) => {
+              return <option value={c} id={i} key={i}>{c}</option>
+            })
+          }
+        </select>
+        <select className="mx-2" name="year select" id="year select" onChange={(e) => {setCombinedProperty(combinedPropertyList.filter((cp) => cp.tag === e.target.value)[0])}}>
+          {
+            combinedPropertyList.map((cp, i) => {
+              return <option value={cp.tag} id={i} key={i}>{cp.name}</option>
+            })
+          }
+        </select>
+        <select className="mx-2" name="year select" id="year select" onChange={(e) => {setYear(e.target.value)}}>
+          {
+            yearList.slice(0,-1).map((y, i) => {
+              return <option value={y} id={i} key={i}>{y}</option>
+            })
+          }
+          {
+            yearList.slice(-1).map((y, i) => {
+              return <option value={y} id={i} key={i} selected>{y}</option>
+            })
+          }
+        </select>
+      </div>
+      )
+      }
+      {
+      type === "info" && (
+      <div className="flex flex-row w-full items-center justify-around p-2 mx-2 my-3">
+        <select className="mx-2" name="company select" id="company select" onChange={(e) => {setCompany(e.target.value)}}>
+          {
+            companyList.map((c, i) => {
+              return <option value={c} id={i} key={i}>{c}</option>
+            })
+          }
+        </select>
+        <select className="mx-2" name="year select" id="year select" onChange={(e) => {setYear(e.target.value)}}>
+          {
+            yearList.slice(0,-1).map((y, i) => {
+              return <option value={y} id={i} key={i}>{y}</option>
+            })
+          }
+          {
+            yearList.slice(-1).map((y, i) => {
+              return <option value={y} id={i} key={i} selected>{y}</option>
+            })
+          }
+        </select>
+      </div>
+      )
+      }
+      <div>
+        {
+          type === "bar" && (
+            <BarModule _data={barData} property={property} industry={industry} color={color} companyMode={companyMode} />
+          )
+        }
+        {
+          type === "pie" && (
+            <PieModule _data={pieData} combinedProperty={combinedProperty}/>
+          )
+        }
+        {
+          type === "info" && (
+            <InfoModule _data={pieData} />
+          )
+        }
       </div>
     </div>
   )

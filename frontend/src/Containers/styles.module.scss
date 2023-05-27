@@ -42,3 +42,35 @@
   background-color: #6b7280;
   color: white;
 }
+
+.buttonDanger:hover {
+  background-color: #dd2222;
+  color: white;
+}
+
+.buttonBlue:hover {
+  background-color: #36438B;
+  color: white;
+}
+
+.buttonOrange:hover {
+  background-color: #F0833C;
+  color: white;
+}
+
+.button:disabled {
+  background-color: #e3e3e3;
+  color: #d3d3d3;
+}
+
+.dashboard {
+  animation: tilt-shaking 0.25s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(1deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-1deg); }
+  100% { transform: rotate(0deg); }
+}

@@ -2,48 +2,6 @@
   "data": [
     {
       "industry": "chemical",
-      "company": "中纖",
-      "year": "2021",
-      "revenue_kiloNTD": "33095627",
-      "capital": "16862097"
-    },
-    {
-      "industry": "chemical",
-      "company": "中纖",
-      "year": "2020",
-      "revenue_kiloNTD": "30969737",
-      "capital": "16213672"
-    },
-    {
-      "industry": "chemical",
-      "company": "中纖",
-      "year": "2019",
-      "revenue_kiloNTD": "35556530",
-      "capital": "16213672"
-    },
-    {
-      "industry": "chemical",
-      "company": "中纖",
-      "year": "2018",
-      "revenue_kiloNTD": "41512028",
-      "capital": "15224105"
-    },
-    {
-      "industry": "chemical",
-      "company": "中纖",
-      "year": "2017",
-      "revenue_kiloNTD": "37132385",
-      "capital": "14294934"
-    },
-    {
-      "industry": "chemical",
-      "company": "中纖",
-      "year": "2016",
-      "revenue_kiloNTD": "33274937",
-      "capital": "14294934"
-    },
-    {
-      "industry": "chemical",
       "company": "長興",
       "year": "2021",
       "revenue_kiloNTD": "50471397",
@@ -53,7 +11,7 @@
       "waste_ton": "58188",
       "heavy_oil_GJ": "78658.749",
       "total_emission_ton": "268042",
-      "tdirect_emission_ton": "101285",
+      "direct_emission_ton": "101285",
       "intdirect_emission_ton": "166757"
     },
     {
@@ -67,7 +25,7 @@
       "waste_ton": "50902",
       "heavy_oil_GJ": "144599.682",
       "total_emission_ton": "249039",
-      "tdirect_emission_ton": "93210",
+      "direct_emission_ton": "93210",
       "intdirect_emission_ton": "154829"
     },
     {
@@ -81,7 +39,7 @@
       "waste_ton": "51302",
       "heavy_oil_GJ": "144608.62",
       "total_emission_ton": "250111",
-      "tdirect_emission_ton": "94995",
+      "direct_emission_ton": "94995",
       "intdirect_emission_ton": "155116"
     },
     {
@@ -93,7 +51,7 @@
       "wsewage_milL": "335100",
       "waste_ton": "36570",
       "total_emission_ton": "222275",
-      "tdirect_emission_ton": "109912",
+      "direct_emission_ton": "109912",
       "intdirect_emission_ton": "111988"
     },
     {
@@ -105,7 +63,7 @@
       "wsewage_milL": "344200",
       "waste_ton": "34930",
       "total_emission_ton": "256207",
-      "tdirect_emission_ton": "96021",
+      "direct_emission_ton": "96021",
       "intdirect_emission_ton": "160185"
     },
     {
@@ -117,7 +75,7 @@
       "wsewage_milL": "307500",
       "waste_ton": "35580",
       "total_emission_ton": "230151",
-      "tdirect_emission_ton": "95932",
+      "direct_emission_ton": "95932",
       "intdirect_emission_ton": "134219"
     },
     {
@@ -136,7 +94,7 @@
       "NG_GJ": "245847.06",
       "total_energy_kiloDeg": "268599.93",
       "total_emission_ton": "15452",
-      "tdirect_emission_ton": "12394",
+      "direct_emission_ton": "12394",
       "intdirect_emission_ton": "3058"
     },
     {
@@ -155,7 +113,7 @@
       "NG_GJ": "292499.59",
       "total_energy_kiloDeg": "319198.69",
       "total_emission_ton": "18317",
-      "tdirect_emission_ton": "14657",
+      "direct_emission_ton": "14657",
       "intdirect_emission_ton": "3660"
     },
     {
@@ -175,7 +133,7 @@
       "NG_GJ": "48082.49",
       "total_energy_kiloDeg": "346882.64",
       "total_emission_ton": "27595",
-      "tdirect_emission_ton": "23335",
+      "direct_emission_ton": "23335",
       "intdirect_emission_ton": "4260"
     },
     {
@@ -194,7 +152,7 @@
       "LPG_GJ": "2469.21",
       "total_energy_kiloDeg": "31312.03",
       "total_emission_ton": "25783",
-      "tdirect_emission_ton": "21504",
+      "direct_emission_ton": "21504",
       "intdirect_emission_ton": "4279"
     },
     {
@@ -213,7 +171,7 @@
       "LPG_GJ": "2145.97",
       "total_energy_kiloDeg": "23613.53",
       "total_emission_ton": "18818",
-      "tdirect_emission_ton": "15811",
+      "direct_emission_ton": "15811",
       "intdirect_emission_ton": "3007"
     },
     {
@@ -225,7 +183,7 @@
       "water_deg": "5949",
       "wsewage_milL": "8078",
       "total_emission_ton": "2725",
-      "tdirect_emission_ton": "1604.396",
+      "direct_emission_ton": "1604.396",
       "intdirect_emission_ton": "1120.522"
     },
     {
@@ -242,7 +200,7 @@
       "heavy_oil_GJ": "1105.9",
       "total_energy_kiloDeg": "4652.3",
       "total_emission_ton": "529175",
-      "tdirect_emission_ton": "481642",
+      "direct_emission_ton": "481642",
       "intdirect_emission_ton": "47533"
     },
     {
@@ -259,7 +217,7 @@
       "heavy_oil_GJ": "1849.3",
       "total_energy_kiloDeg": "5343.1",
       "total_emission_ton": "532907",
-      "tdirect_emission_ton": "483869",
+      "direct_emission_ton": "483869",
       "intdirect_emission_ton": "49037"
     },
     {
@@ -276,7 +234,7 @@
       "heavy_oil_GJ": "1829.1",
       "total_energy_kiloDeg": "5247.5",
       "total_emission_ton": "489899",
-      "tdirect_emission_ton": "441752",
+      "direct_emission_ton": "441752",
       "intdirect_emission_ton": "48147"
     },
     {
@@ -293,7 +251,7 @@
       "heavy_oil_GJ": "2722.8",
       "total_energy_kiloDeg": "6195.4",
       "total_emission_ton": "479834",
-      "tdirect_emission_ton": "428454",
+      "direct_emission_ton": "428454",
       "intdirect_emission_ton": "51380"
     },
     {
@@ -310,7 +268,7 @@
       "heavy_oil_GJ": "2425.5",
       "total_energy_kiloDeg": "5924",
       "total_emission_ton": "480092",
-      "tdirect_emission_ton": "430721",
+      "direct_emission_ton": "430721",
       "intdirect_emission_ton": "49371"
     },
     {
@@ -326,7 +284,7 @@
       "heavy_oil_GJ": "2214.6",
       "total_energy_kiloDeg": "5609.5",
       "total_emission_ton": "469195",
-      "tdirect_emission_ton": "422618",
+      "direct_emission_ton": "422618",
       "intdirect_emission_ton": "46577"
     },
     {
@@ -344,7 +302,7 @@
       "steam_GJ": "973504.16",
       "total_energy_kiloDeg": "2712519.56",
       "total_emission_ton": "353211.3161",
-      "tdirect_emission_ton": "40762.39",
+      "direct_emission_ton": "40762.39",
       "intdirect_emission_ton": "312448.93"
     },
     {
@@ -362,7 +320,7 @@
       "steam_GJ": "923991.63",
       "total_energy_kiloDeg": "2605081.44",
       "total_emission_ton": "336080.73",
-      "tdirect_emission_ton": "39790.22",
+      "direct_emission_ton": "39790.22",
       "intdirect_emission_ton": "296290.51"
     },
     {
@@ -379,7 +337,7 @@
       "steam_GJ": "549336.97",
       "total_energy_kiloDeg": "2225644.06",
       "total_emission_ton": "337831.53",
-      "tdirect_emission_ton": "56487.33",
+      "direct_emission_ton": "56487.33",
       "intdirect_emission_ton": "281344.2"
     },
     {
@@ -397,7 +355,7 @@
       "steam_GJ": "584011.86",
       "total_energy_kiloDeg": "2490372.838",
       "total_emission_ton": "356816.91",
-      "tdirect_emission_ton": "57111.7",
+      "direct_emission_ton": "57111.7",
       "intdirect_emission_ton": "299705.21"
     },
     {
@@ -415,7 +373,7 @@
       "steam_GJ": "577706.49",
       "total_energy_kiloDeg": "1631840.23",
       "total_emission_ton": "342624",
-      "tdirect_emission_ton": "52762.07",
+      "direct_emission_ton": "52762.07",
       "intdirect_emission_ton": "290225"
     },
     {
@@ -433,7 +391,7 @@
       "steam_GJ": "875372.62",
       "total_energy_kiloDeg": "2453194.83",
       "total_emission_ton": "340478",
-      "tdirect_emission_ton": "48015",
+      "direct_emission_ton": "48015",
       "intdirect_emission_ton": "292463"
     },
     {
@@ -448,7 +406,7 @@
       "gasoline_GJ": "58.62",
       "diesel_GJ": "206.94",
       "total_emission_ton": "23957.99",
-      "tdirect_emission_ton": "32.47",
+      "direct_emission_ton": "32.47",
       "intdirect_emission_ton": "23925.52"
     },
     {
@@ -464,7 +422,7 @@
       "gasoline_GJ": "109.14",
       "diesel_GJ": "252.63",
       "total_emission_ton": "22797.71",
-      "tdirect_emission_ton": "26.68",
+      "direct_emission_ton": "26.68",
       "intdirect_emission_ton": "22771.03"
     },
     {
@@ -479,7 +437,7 @@
       "gasoline_GJ": "41.8",
       "diesel_GJ": "328",
       "total_emission_ton": "22917.81",
-      "tdirect_emission_ton": "27.59",
+      "direct_emission_ton": "27.59",
       "intdirect_emission_ton": "22890.22"
     },
     {
@@ -527,7 +485,7 @@
       "waste_ton": "1.592",
       "total_energy_kiloDeg": "6345500",
       "total_emission_ton": "4652.029",
-      "tdirect_emission_ton": "101.85",
+      "direct_emission_ton": "101.85",
       "intdirect_emission_ton": "4550.179"
     },
     {
@@ -597,7 +555,7 @@
       "waste_ton": "17787.912",
       "total_energy_kiloDeg": "4570240.43",
       "total_emission_ton": "665177",
-      "tdirect_emission_ton": "94996",
+      "direct_emission_ton": "94996",
       "intdirect_emission_ton": "570181"
     },
     {
@@ -610,7 +568,7 @@
       "waste_ton": "17182.377",
       "total_energy_kiloDeg": "4563760.89",
       "total_emission_ton": "673345",
-      "tdirect_emission_ton": "108217",
+      "direct_emission_ton": "108217",
       "intdirect_emission_ton": "565128"
     },
     {
@@ -623,7 +581,7 @@
       "waste_ton": "14994.183",
       "total_energy_kiloDeg": "4439487.37",
       "total_emission_ton": "643815",
-      "tdirect_emission_ton": "95781",
+      "direct_emission_ton": "95781",
       "intdirect_emission_ton": "548034"
     },
     {
@@ -638,7 +596,7 @@
       "waste_ton": "14800.343",
       "total_energy_kiloDeg": "4246004.75",
       "total_emission_ton": "659748",
-      "tdirect_emission_ton": "107183",
+      "direct_emission_ton": "107183",
       "intdirect_emission_ton": "552565"
     },
     {
@@ -673,7 +631,7 @@
       "waste_ton": "7727",
       "total_energy_kiloDeg": "2232751",
       "total_emission_ton": "316044",
-      "tdirect_emission_ton": "38760",
+      "direct_emission_ton": "38760",
       "intdirect_emission_ton": "277284"
     },
     {
@@ -687,7 +645,7 @@
       "waste_ton": "6570",
       "total_energy_kiloDeg": "2205221",
       "total_emission_ton": "331317",
-      "tdirect_emission_ton": "53271",
+      "direct_emission_ton": "53271",
       "intdirect_emission_ton": "278046"
     },
     {
@@ -701,7 +659,7 @@
       "waste_ton": "6042",
       "total_energy_kiloDeg": "2119538",
       "total_emission_ton": "334696",
-      "tdirect_emission_ton": "65749",
+      "direct_emission_ton": "65749",
       "intdirect_emission_ton": "268947"
     },
     {
@@ -715,7 +673,7 @@
       "waste_ton": "6082",
       "total_energy_kiloDeg": "2024278",
       "total_emission_ton": "341789",
-      "tdirect_emission_ton": "65729",
+      "direct_emission_ton": "65729",
       "intdirect_emission_ton": "276060"
     },
     {
@@ -730,7 +688,7 @@
       "waste_ton": "6013",
       "total_energy_kiloDeg": "1836336",
       "total_emission_ton": "313177",
-      "tdirect_emission_ton": "62318",
+      "direct_emission_ton": "62318",
       "intdirect_emission_ton": "250859"
     },
     {
@@ -744,7 +702,7 @@
       "waste_ton": "5285",
       "total_energy_kiloDeg": "1589623",
       "total_emission_ton": "269974",
-      "tdirect_emission_ton": "63673",
+      "direct_emission_ton": "63673",
       "intdirect_emission_ton": "206301"
     },
     {
@@ -850,7 +808,7 @@
       "waste_ton": "828593",
       "total_energy_kiloDeg": "19192",
       "total_emission_ton": "10304434",
-      "tdirect_emission_ton": "2151937",
+      "direct_emission_ton": "2151937",
       "intdirect_emission_ton": "8152497"
     },
     {
@@ -864,7 +822,7 @@
       "waste_ton": "705850",
       "total_energy_kiloDeg": "16919",
       "total_emission_ton": "9464697",
-      "tdirect_emission_ton": "2004841",
+      "direct_emission_ton": "2004841",
       "intdirect_emission_ton": "7459856"
     },
     {
@@ -878,7 +836,7 @@
       "waste_ton": "508309",
       "total_energy_kiloDeg": "14323",
       "total_emission_ton": "8769613",
-      "tdirect_emission_ton": "2071742",
+      "direct_emission_ton": "2071742",
       "intdirect_emission_ton": "6697871"
     },
     {
@@ -892,7 +850,7 @@
       "waste_ton": "473756",
       "total_energy_kiloDeg": "13167",
       "total_emission_ton": "8475367",
-      "tdirect_emission_ton": "2125725",
+      "direct_emission_ton": "2125725",
       "intdirect_emission_ton": "6349642"
     },
     {
@@ -906,7 +864,7 @@
       "waste_ton": "425626",
       "total_energy_kiloDeg": "12016",
       "total_emission_ton": "8156140",
-      "tdirect_emission_ton": "2075928",
+      "direct_emission_ton": "2075928",
       "intdirect_emission_ton": "6080212"
     },
     {
@@ -920,7 +878,7 @@
       "waste_ton": "338873",
       "total_energy_kiloDeg": "9848",
       "total_emission_ton": "7413953",
-      "tdirect_emission_ton": "2035510",
+      "direct_emission_ton": "2035510",
       "intdirect_emission_ton": "5378443"
     },
     {
@@ -935,7 +893,7 @@
       "LPG_GJ": "5716",
       "total_energy_kiloDeg": "451947",
       "total_emission_ton": "67318",
-      "tdirect_emission_ton": "5326",
+      "direct_emission_ton": "5326",
       "intdirect_emission_ton": "61992"
     },
     {
@@ -950,7 +908,7 @@
       "LPG_GJ": "5767",
       "total_energy_kiloDeg": "374237",
       "total_emission_ton": "56590",
-      "tdirect_emission_ton": "4518",
+      "direct_emission_ton": "4518",
       "intdirect_emission_ton": "52072"
     },
     {
@@ -965,7 +923,7 @@
       "LPG_GJ": "6701",
       "total_energy_kiloDeg": "337781",
       "total_emission_ton": "51080",
-      "tdirect_emission_ton": "2095",
+      "direct_emission_ton": "2095",
       "intdirect_emission_ton": "48985"
     },
     {
@@ -977,7 +935,7 @@
       "electricity_deg": "71657961",
       "waste_ton": "102.79",
       "total_emission_ton": "38749",
-      "tdirect_emission_ton": "808",
+      "direct_emission_ton": "808",
       "intdirect_emission_ton": "37941"
     },
     {
@@ -988,7 +946,7 @@
       "electricity_deg": "69878790",
       "waste_ton": "94.03",
       "total_emission_ton": "37818",
-      "tdirect_emission_ton": "748",
+      "direct_emission_ton": "748",
       "intdirect_emission_ton": "37070"
     },
     {
@@ -999,7 +957,7 @@
       "electricity_deg": "66939543",
       "waste_ton": "65.33",
       "total_emission_ton": "36228",
-      "tdirect_emission_ton": "717",
+      "direct_emission_ton": "717",
       "intdirect_emission_ton": "35511"
     },
     {
@@ -1013,7 +971,7 @@
       "NG_GJ": "249437",
       "total_energy_kiloDeg": "2835163",
       "total_emission_ton": "1797346",
-      "tdirect_emission_ton": "498907",
+      "direct_emission_ton": "498907",
       "intdirect_emission_ton": "1298439"
     },
     {
@@ -1027,7 +985,7 @@
       "NG_GJ": "252802",
       "total_energy_kiloDeg": "2782754",
       "total_emission_ton": "1826569",
-      "tdirect_emission_ton": "539321",
+      "direct_emission_ton": "539321",
       "intdirect_emission_ton": "1287248"
     },
     {
@@ -1041,7 +999,7 @@
       "NG_GJ": "221398",
       "total_energy_kiloDeg": "2725644",
       "total_emission_ton": "1830313",
-      "tdirect_emission_ton": "512741",
+      "direct_emission_ton": "512741",
       "intdirect_emission_ton": "1317572"
     },
     {
@@ -1055,7 +1013,7 @@
       "NG_GJ": "225919",
       "total_energy_kiloDeg": "2740231",
       "total_emission_ton": "1960523",
-      "tdirect_emission_ton": "595576",
+      "direct_emission_ton": "595576",
       "intdirect_emission_ton": "1364947"
     },
     {
@@ -1068,7 +1026,7 @@
       "NG_GJ": "223368",
       "total_energy_kiloDeg": "2748000",
       "total_emission_ton": "1960437",
-      "tdirect_emission_ton": "603958",
+      "direct_emission_ton": "603958",
       "intdirect_emission_ton": "1356479"
     },
     {
@@ -1081,7 +1039,7 @@
       "NG_GJ": "244443",
       "total_energy_kiloDeg": "2512000",
       "total_emission_ton": "1802352",
-      "tdirect_emission_ton": "615917",
+      "direct_emission_ton": "615917",
       "intdirect_emission_ton": "1186435"
     },
     {
@@ -1097,7 +1055,7 @@
       "NG_GJ": "332561",
       "total_energy_kiloDeg": "3416482",
       "total_emission_ton": "1702640",
-      "tdirect_emission_ton": "90591",
+      "direct_emission_ton": "90591",
       "intdirect_emission_ton": "1612049"
     },
     {
@@ -1113,7 +1071,7 @@
       "NG_GJ": "324214",
       "total_energy_kiloDeg": "3352289",
       "total_emission_ton": "1752602",
-      "tdirect_emission_ton": "93996",
+      "direct_emission_ton": "93996",
       "intdirect_emission_ton": "1658606"
     },
     {
@@ -1129,7 +1087,7 @@
       "NG_GJ": "255582",
       "total_energy_kiloDeg": "3208516",
       "total_emission_ton": "1794103",
-      "tdirect_emission_ton": "98880",
+      "direct_emission_ton": "98880",
       "intdirect_emission_ton": "1695223"
     },
     {
@@ -1145,7 +1103,7 @@
       "NG_GJ": "354857",
       "total_energy_kiloDeg": "3207383",
       "total_emission_ton": "1834601",
-      "tdirect_emission_ton": "99504",
+      "direct_emission_ton": "99504",
       "intdirect_emission_ton": "1735097"
     },
     {
@@ -1186,7 +1144,7 @@
       "LPG_GJ": "563979",
       "total_energy_kiloDeg": "12893061",
       "total_emission_ton": "17300.7596",
-      "tdirect_emission_ton": "276.4467",
+      "direct_emission_ton": "276.4467",
       "intdirect_emission_ton": "17024.3129"
     },
     {
@@ -1200,7 +1158,7 @@
       "LPG_GJ": "682079.95",
       "total_energy_kiloDeg": "110445606",
       "total_emission_ton": "15972.24",
-      "tdirect_emission_ton": "484.68",
+      "direct_emission_ton": "484.68",
       "intdirect_emission_ton": "15487.56"
     },
     {
@@ -1212,7 +1170,7 @@
       "LPG_GJ": "700115.2",
       "total_energy_kiloDeg": "92543413",
       "total_emission_ton": "14034.69",
-      "tdirect_emission_ton": "475.4",
+      "direct_emission_ton": "475.4",
       "intdirect_emission_ton": "13559.29"
     },
     {
@@ -1223,7 +1181,7 @@
       "LPG_GJ": "671071.15",
       "total_energy_kiloDeg": "71314411",
       "total_emission_ton": "11237.2",
-      "tdirect_emission_ton": "402.82",
+      "direct_emission_ton": "402.82",
       "intdirect_emission_ton": "10834.38"
     },
     {
@@ -1233,7 +1191,7 @@
       "electricity_deg": "60728926",
       "LPG_GJ": "634159.7",
       "total_emission_ton": "9321.36",
-      "tdirect_emission_ton": "397.58",
+      "direct_emission_ton": "397.58",
       "intdirect_emission_ton": "8923.78"
     },
     {
@@ -1244,7 +1202,7 @@
       "diesel_GJ": "35200",
       "LPG_GJ": "658443",
       "total_emission_ton": "8602.94",
-      "tdirect_emission_ton": "398.44",
+      "direct_emission_ton": "398.44",
       "intdirect_emission_ton": "8204.5"
     },
     {
@@ -1258,7 +1216,7 @@
       "NG_GJ": "48702",
       "total_energy_kiloDeg": "780089",
       "total_emission_ton": "430048",
-      "tdirect_emission_ton": "56409",
+      "direct_emission_ton": "56409",
       "intdirect_emission_ton": "373639"
     },
     {
@@ -1272,7 +1230,7 @@
       "NG_GJ": "46743",
       "total_energy_kiloDeg": "759667",
       "total_emission_ton": "469744",
-      "tdirect_emission_ton": "90327",
+      "direct_emission_ton": "90327",
       "intdirect_emission_ton": "379417"
     },
     {
@@ -1286,7 +1244,7 @@
       "NG_GJ": "47545",
       "total_energy_kiloDeg": "756437",
       "total_emission_ton": "478722",
-      "tdirect_emission_ton": "88701",
+      "direct_emission_ton": "88701",
       "intdirect_emission_ton": "390021"
     },
     {
@@ -1300,7 +1258,7 @@
       "NG_GJ": "44151",
       "total_energy_kiloDeg": "689538",
       "total_emission_ton": "448216",
-      "tdirect_emission_ton": "78312",
+      "direct_emission_ton": "78312",
       "intdirect_emission_ton": "369904"
     },
     {
@@ -1313,7 +1271,7 @@
       "diesel_GJ": "0.25",
       "NG_GJ": "38092",
       "total_emission_ton": "376193",
-      "tdirect_emission_ton": "59751",
+      "direct_emission_ton": "59751",
       "intdirect_emission_ton": "316442"
     },
     {
@@ -1327,7 +1285,7 @@
       "heavy_oil_GJ": "0.7",
       "coal_GJ": "23818",
       "total_emission_ton": "290022",
-      "tdirect_emission_ton": "51585",
+      "direct_emission_ton": "51585",
       "intdirect_emission_ton": "238437"
     },
     {
@@ -1341,7 +1299,7 @@
       "coal_GJ": "17632953",
       "total_energy_kiloDeg": "19248118",
       "total_emission_ton": "5009703",
-      "tdirect_emission_ton": "4797296",
+      "direct_emission_ton": "4797296",
       "intdirect_emission_ton": "212407"
     },
     {
@@ -1354,7 +1312,7 @@
       "coal_GJ": "16300593",
       "total_energy_kiloDeg": "17798487",
       "total_emission_ton": "4613398",
-      "tdirect_emission_ton": "4411086",
+      "direct_emission_ton": "4411086",
       "intdirect_emission_ton": "202312"
     },
     {
@@ -1367,7 +1325,7 @@
       "coal_GJ": "16157228",
       "total_energy_kiloDeg": "17749292",
       "total_emission_ton": "4489486",
-      "tdirect_emission_ton": "4266390",
+      "direct_emission_ton": "4266390",
       "intdirect_emission_ton": "223096"
     },
     {
@@ -1380,7 +1338,7 @@
       "coal_GJ": "15689903",
       "total_energy_kiloDeg": "17417060",
       "total_emission_ton": "4476390",
-      "tdirect_emission_ton": "4228688",
+      "direct_emission_ton": "4228688",
       "intdirect_emission_ton": "247702"
     },
     {
@@ -1393,7 +1351,7 @@
       "coal_GJ": "17012323",
       "total_energy_kiloDeg": "18757805",
       "total_emission_ton": "4386360",
-      "tdirect_emission_ton": "4144669",
+      "direct_emission_ton": "4144669",
       "intdirect_emission_ton": "241691"
     },
     {
@@ -1406,7 +1364,7 @@
       "coal_GJ": "18195789",
       "total_energy_kiloDeg": "19991633",
       "total_emission_ton": "4650492",
-      "tdirect_emission_ton": "4396724",
+      "direct_emission_ton": "4396724",
       "intdirect_emission_ton": "253768"
     },
     {
@@ -1489,7 +1447,7 @@
       "coal_GJ": "11906000",
       "total_energy_kiloDeg": "13372000",
       "total_emission_ton": "3140000",
-      "tdirect_emission_ton": "2970000",
+      "direct_emission_ton": "2970000",
       "intdirect_emission_ton": "170000"
     },
     {
@@ -1505,7 +1463,7 @@
       "coal_GJ": "12220000",
       "total_energy_kiloDeg": "13643000",
       "total_emission_ton": "3240000",
-      "tdirect_emission_ton": "3070000",
+      "direct_emission_ton": "3070000",
       "intdirect_emission_ton": "170000"
     },
     {
@@ -1521,7 +1479,7 @@
       "coal_GJ": "12555000",
       "total_energy_kiloDeg": "13812770",
       "total_emission_ton": "3210000",
-      "tdirect_emission_ton": "3050000",
+      "direct_emission_ton": "3050000",
       "intdirect_emission_ton": "160000"
     },
     {
@@ -1537,7 +1495,7 @@
       "coal_GJ": "12218000",
       "total_energy_kiloDeg": "14895000",
       "total_emission_ton": "3060000",
-      "tdirect_emission_ton": "2890000",
+      "direct_emission_ton": "2890000",
       "intdirect_emission_ton": "170000"
     },
     {
@@ -1549,7 +1507,7 @@
       "waste_ton": "1252",
       "total_energy_kiloDeg": "14717000",
       "total_emission_ton": "3032200",
-      "tdirect_emission_ton": "2858400",
+      "direct_emission_ton": "2858400",
       "intdirect_emission_ton": "173800"
     },
     {
@@ -1558,7 +1516,7 @@
       "year": "2016",
       "water_deg": "2759158",
       "total_emission_ton": "3420000",
-      "tdirect_emission_ton": "3230000",
+      "direct_emission_ton": "3230000",
       "intdirect_emission_ton": "190000"
     },
     {
@@ -1569,7 +1527,7 @@
       "water_deg": "115025",
       "waste_ton": "269.08",
       "total_emission_ton": "5570.3",
-      "tdirect_emission_ton": "209.1565",
+      "direct_emission_ton": "209.1565",
       "intdirect_emission_ton": "4007.197"
     },
     {
@@ -1580,7 +1538,7 @@
       "water_deg": "97612",
       "waste_ton": "250.8",
       "total_emission_ton": "107.7327",
-      "tdirect_emission_ton": "30.5912",
+      "direct_emission_ton": "30.5912",
       "intdirect_emission_ton": "77.1415"
     },
     {
@@ -1620,7 +1578,7 @@
       "year": "2021",
       "electricity_deg": "41595386",
       "water_deg": "13248",
-      "tdirect_emission_ton": "693174",
+      "direct_emission_ton": "693174",
       "intdirect_emission_ton": "2738"
     },
     {
@@ -1629,7 +1587,7 @@
       "year": "2020",
       "electricity_deg": "42007000",
       "water_deg": "37909",
-      "tdirect_emission_ton": "733004",
+      "direct_emission_ton": "733004",
       "intdirect_emission_ton": "2640"
     },
     {
@@ -1638,7 +1596,7 @@
       "year": "2019",
       "electricity_deg": "41172000",
       "water_deg": "23596",
-      "tdirect_emission_ton": "736994",
+      "direct_emission_ton": "736994",
       "intdirect_emission_ton": "2429"
     },
     {
@@ -1648,7 +1606,7 @@
       "electricity_deg": "40161600",
       "water_deg": "37868",
       "wsewage_milL": "37868",
-      "tdirect_emission_ton": "24886",
+      "direct_emission_ton": "24886",
       "intdirect_emission_ton": "2639"
     },
     {
@@ -1658,7 +1616,7 @@
       "electricity_deg": "39372000",
       "water_deg": "31401",
       "wsewage_milL": "31401",
-      "tdirect_emission_ton": "21062",
+      "direct_emission_ton": "21062",
       "intdirect_emission_ton": "234"
     },
     {
@@ -1668,7 +1626,7 @@
       "electricity_deg": "47990224",
       "water_deg": "65442",
       "wsewage_milL": "65442",
-      "tdirect_emission_ton": "270818",
+      "direct_emission_ton": "270818",
       "intdirect_emission_ton": "241314"
     },
     {
@@ -1690,7 +1648,7 @@
       "coal_GJ": "20813",
       "total_energy_kiloDeg": "37110",
       "total_emission_ton": "78396.9399",
-      "tdirect_emission_ton": "59507.7463",
+      "direct_emission_ton": "59507.7463",
       "intdirect_emission_ton": "18889.1936"
     },
     {
@@ -1707,7 +1665,7 @@
       "coal_GJ": "19565",
       "total_energy_kiloDeg": "36779",
       "total_emission_ton": "61487.7416",
-      "tdirect_emission_ton": "41884.428",
+      "direct_emission_ton": "41884.428",
       "intdirect_emission_ton": "19603.3136"
     },
     {
@@ -1724,7 +1682,7 @@
       "coal_GJ": "19069",
       "total_energy_kiloDeg": "35135",
       "total_emission_ton": "66196.7336",
-      "tdirect_emission_ton": "46732.7192",
+      "direct_emission_ton": "46732.7192",
       "intdirect_emission_ton": "19464.0144"
     },
     {
@@ -1741,7 +1699,7 @@
       "coal_GJ": "17897",
       "total_energy_kiloDeg": "32881",
       "total_emission_ton": "59121.5913",
-      "tdirect_emission_ton": "41727.5423",
+      "direct_emission_ton": "41727.5423",
       "intdirect_emission_ton": "17394.049"
     },
     {
@@ -1759,7 +1717,7 @@
       "coal_GJ": "15737",
       "total_energy_kiloDeg": "29033",
       "total_emission_ton": "48938.786",
-      "tdirect_emission_ton": "33609.362",
+      "direct_emission_ton": "33609.362",
       "intdirect_emission_ton": "15329.424"
     },
     {
@@ -1781,7 +1739,7 @@
       "steam_GJ": "169562",
       "total_energy_kiloDeg": "1073941",
       "total_emission_ton": "83192.72",
-      "tdirect_emission_ton": "24895.83",
+      "direct_emission_ton": "24895.83",
       "intdirect_emission_ton": "58296.89"
     },
     {
@@ -1798,7 +1756,7 @@
       "steam_GJ": "158933",
       "total_energy_kiloDeg": "875549",
       "total_emission_ton": "81189.91",
-      "tdirect_emission_ton": "22071.36",
+      "direct_emission_ton": "22071.36",
       "intdirect_emission_ton": "59118.55"
     },
     {
@@ -1813,7 +1771,7 @@
       "steam_GJ": "215310",
       "total_energy_kiloDeg": "1474712",
       "total_emission_ton": "85502.46",
-      "tdirect_emission_ton": "17043.81",
+      "direct_emission_ton": "17043.81",
       "intdirect_emission_ton": "68458.65"
     },
     {
@@ -1828,7 +1786,7 @@
       "steam_GJ": "204575",
       "total_energy_kiloDeg": "1377246",
       "total_emission_ton": "77867.77",
-      "tdirect_emission_ton": "17900.32",
+      "direct_emission_ton": "17900.32",
       "intdirect_emission_ton": "59967.45"
     },
     {
@@ -1843,7 +1801,7 @@
       "steam_GJ": "216131",
       "total_energy_kiloDeg": "1411187",
       "total_emission_ton": "78677.07",
-      "tdirect_emission_ton": "16208.83",
+      "direct_emission_ton": "16208.83",
       "intdirect_emission_ton": "62468.24"
     },
     {
@@ -1859,7 +1817,7 @@
       "NG_GJ": "4682857",
       "total_energy_kiloDeg": "780089",
       "total_emission_ton": "430048",
-      "tdirect_emission_ton": "56409",
+      "direct_emission_ton": "56409",
       "intdirect_emission_ton": "373639"
     },
     {
@@ -1875,7 +1833,7 @@
       "NG_GJ": "4494478",
       "total_energy_kiloDeg": "759667",
       "total_emission_ton": "469744",
-      "tdirect_emission_ton": "379417",
+      "direct_emission_ton": "379417",
       "intdirect_emission_ton": "90327"
     },
     {
@@ -1891,7 +1849,7 @@
       "NG_GJ": "4571653",
       "total_energy_kiloDeg": "756437",
       "total_emission_ton": "478722",
-      "tdirect_emission_ton": "390021",
+      "direct_emission_ton": "390021",
       "intdirect_emission_ton": "88701"
     },
     {
@@ -1907,7 +1865,7 @@
       "NG_GJ": "4245273",
       "total_energy_kiloDeg": "689538",
       "total_emission_ton": "448216",
-      "tdirect_emission_ton": "369904",
+      "direct_emission_ton": "369904",
       "intdirect_emission_ton": "78312"
     },
     {
@@ -1924,7 +1882,7 @@
       "NG_GJ": "3662649",
       "total_energy_kiloDeg": "575893",
       "total_emission_ton": "376428.143",
-      "tdirect_emission_ton": "61287.318",
+      "direct_emission_ton": "61287.318",
       "intdirect_emission_ton": "315140.825"
     },
     {
@@ -1941,7 +1899,7 @@
       "NG_GJ": "2290230",
       "total_energy_kiloDeg": "429719",
       "total_emission_ton": "290021.428",
-      "tdirect_emission_ton": "51584.827",
+      "direct_emission_ton": "51584.827",
       "intdirect_emission_ton": "238436.6"
     },
     {
@@ -1966,7 +1924,7 @@
       "waste_ton": "213344",
       "total_energy_kiloDeg": "253936",
       "total_emission_ton": "19968127",
-      "tdirect_emission_ton": "3966548",
+      "direct_emission_ton": "3966548",
       "intdirect_emission_ton": "4668706"
     },
     {
@@ -1980,7 +1938,7 @@
       "waste_ton": "197190",
       "total_energy_kiloDeg": "250329",
       "total_emission_ton": "20044203",
-      "tdirect_emission_ton": "3659904",
+      "direct_emission_ton": "3659904",
       "intdirect_emission_ton": "4981555"
     },
     {
@@ -1994,7 +1952,7 @@
       "waste_ton": "237931",
       "total_energy_kiloDeg": "251533",
       "total_emission_ton": "20247714",
-      "tdirect_emission_ton": "3836493",
+      "direct_emission_ton": "3836493",
       "intdirect_emission_ton": "5008477"
     },
     {
@@ -2008,7 +1966,7 @@
       "waste_ton": "277084",
       "total_energy_kiloDeg": "242343",
       "total_emission_ton": "9251477",
-      "tdirect_emission_ton": "4060474",
+      "direct_emission_ton": "4060474",
       "intdirect_emission_ton": "5183854"
     },
     {
@@ -2022,7 +1980,7 @@
       "waste_ton": "268332",
       "total_energy_kiloDeg": "261757",
       "total_emission_ton": "8940056",
-      "tdirect_emission_ton": "4061443",
+      "direct_emission_ton": "4061443",
       "intdirect_emission_ton": "4871848"
     },
     {
@@ -2042,7 +2000,7 @@
       "wsewage_milL": "1893990.269",
       "waste_ton": "1129663",
       "total_emission_ton": "27393039",
-      "tdirect_emission_ton": "27256866",
+      "direct_emission_ton": "27256866",
       "intdirect_emission_ton": "136173"
     },
     {
@@ -2055,7 +2013,7 @@
       "wsewage_milL": "2163965.634",
       "waste_ton": "1295260",
       "total_emission_ton": "28179173",
-      "tdirect_emission_ton": "28070653",
+      "direct_emission_ton": "28070653",
       "intdirect_emission_ton": "108520"
     },
     {
@@ -2068,7 +2026,7 @@
       "wsewage_milL": "1847703.673",
       "waste_ton": "1190156",
       "total_emission_ton": "27114847",
-      "tdirect_emission_ton": "26952581",
+      "direct_emission_ton": "26952581",
       "intdirect_emission_ton": "162266"
     },
     {
@@ -2081,7 +2039,7 @@
       "wsewage_milL": "1763861.058",
       "waste_ton": "1045509",
       "total_emission_ton": "28022632",
-      "tdirect_emission_ton": "27910823",
+      "direct_emission_ton": "27910823",
       "intdirect_emission_ton": "111809"
     },
     {
@@ -2094,7 +2052,7 @@
       "wsewage_milL": "1892167",
       "waste_ton": "1138484",
       "total_emission_ton": "28024361",
-      "tdirect_emission_ton": "27915537",
+      "direct_emission_ton": "27915537",
       "intdirect_emission_ton": "108824"
     },
     {
