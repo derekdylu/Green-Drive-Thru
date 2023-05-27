@@ -43,15 +43,15 @@ const propertyTransformList = [
   },
   {
     "tag": "total_emission_ton",
-    "name": "總溫室氣體排放量(公噸)"
+    "name": "總溫室氣體(公噸)"
   },
   {
     "tag": "direct_emission_ton",
-    "name": "直接溫室氣體排放量(公噸)"
+    "name": "範疇一(公噸)"
   },
   {
     "tag": "intdirect_emission_ton",
-    "name": "間接溫室氣體排放量(公噸)"
+    "name": "範疇二(公噸)"
   },
   {
     "tag": "gasoline_GJ",
@@ -67,7 +67,7 @@ const propertyTransformList = [
   },
   {
     "tag": "LPG_GJ",
-    "name": "液化石油氣用量(千焦)"
+    "name": "LPG用量(千焦)"
   },
   {
     "tag": "NG_GJ",
@@ -104,7 +104,7 @@ const InfoModule = ({_data, big = false}) => {
   }
 
   return (
-    <div className="overflow-auto" style={{ width: width, height: height, paddingTop: padding.top, paddingLeft: padding.left, paddingRight: padding.right, paddingBottom: padding.bottom}}>
+    <div className="overflow-auto" style={{ width: width, height: height, paddingTop: padding.top, paddingLeft: padding.left, paddingRight: padding.right, paddingBottom: padding.bottom }}>
       <div className="flex flex-col space-y-2">
         {
           Object.entries(data[0]).map(([key, value]) => {

@@ -113,9 +113,17 @@ const About = () => {
                 return null
               })
             }
-            <a className="my-3" href="mailto:contact@greendrivethru.com.tw">
-              <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")}>聯絡我們</button>
-            </a>
+            <div className="flex flex-row space-x-2">
+              <a className="my-3" href="mailto:contact@greendrivethru.com.tw">
+                <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")}>聯絡我們</button>
+              </a>
+              <a className="my-3" href="https://www.facebook.com/profile.php?id=100092444201401" target='_blank'>
+                <button className={classnames(styles.buttonFacebook, "rounded-full bg-main text-white px-4 py-2")}>Facebook</button>
+              </a>
+              <a className="my-3" href="https://www.instagram.com/greendrivethru/" target='_blank'>
+                <button className={classnames(styles.buttonInstagram, "rounded-full bg-main text-white px-4 py-2")}>Instagram</button>
+              </a>
+            </div>
           </div>
           <div className="md:w-1/2">
             <img src={team} alt="team" style={{ objectFit: "cover" }} />

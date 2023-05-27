@@ -67,6 +67,26 @@
   animation: tilt-shaking 0.25s infinite;
 }
 
+.buttonFacebook {
+  background-color: #3b5998;
+  color: #d3d3d3;
+
+  &:hover {
+    background-color: #2b4170;
+    color: #d3d3d3;
+  }
+}
+
+.buttonInstagram {
+  background-color: #d62976;
+  color: #d3d3d3;
+
+  &:hover {
+    background-color: #a8225e;
+    color: #d3d3d3;
+  }
+}
+
 @keyframes tilt-shaking {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(1deg); }

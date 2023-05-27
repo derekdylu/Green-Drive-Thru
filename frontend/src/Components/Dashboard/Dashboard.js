@@ -32,19 +32,19 @@ const industryList = [
 const combinedPropertyList = [
   {
     "tag": "combined_emission",
-    "name": "直/間接溫室氣體排放量(公噸)",
+    "name": "溫室氣體範疇(公噸)",
     "attributes": [
       "direct_emission_ton",
       "intdirect_emission_ton",
     ],
     "attributesName": [
-      "直接(範疇一)",
-      "間接(範疇二)",
+      "範疇一",
+      "範疇二",
     ]
   },
   {
     "tag": "combined_energy",
-    "name": "內部能量消耗分佈(GJ)",
+    "name": "能量消耗分佈(GJ)",
     "attributes": [
       "gasoline_GJ",
       "diesel_GJ",
@@ -58,7 +58,7 @@ const combinedPropertyList = [
       "汽油",
       "柴油",
       "重油",
-      "液化石油氣",
+      "LPG",
       "天然氣",
       "煤炭",
       "蒸汽",
@@ -97,15 +97,15 @@ const propertyList = [
   },
   {
     "tag": "total_emission_ton",
-    "name": "總溫室氣體排放量(公噸)"
+    "name": "總溫室氣體(公噸)"
   },
   {
     "tag": "direct_emission_ton",
-    "name": "直接溫室氣體排放量(公噸)"
+    "name": "範疇一(公噸)"
   },
   {
     "tag": "intdirect_emission_ton",
-    "name": "間接溫室氣體排放量(公噸)"
+    "name": "範疇二(公噸)"
   },
   {
     "tag": "gasoline_GJ",
@@ -121,7 +121,7 @@ const propertyList = [
   },
   {
     "tag": "LPG_GJ",
-    "name": "液化石油氣用量(千焦)"
+    "name": "LPG用量(千焦)"
   },
   {
     "tag": "NG_GJ",
