@@ -113,7 +113,7 @@ const About = () => {
                 return null
               })
             }
-            <div className="flex flex-col space-y-2 md:flex-row md:space-x-2">
+            <div className="flex flex-col md:flex-row md:space-x-2">
               <a className="my-3" href="mailto:contact@greendrivethru.com.tw">
                 <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")}>聯絡我們</button>
               </a>
