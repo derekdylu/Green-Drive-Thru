@@ -21,9 +21,9 @@ const Footer = () => {
           <Link href="/terms" style={{ textDecoration: 'none' }}>
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>使用條款</div>
           </Link>
-          <Link href="/report" style={{ textDecoration: 'none' }}>
+          {/* <Link href="/report" style={{ textDecoration: 'none' }}>
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>報告書</div>
-          </Link>
+          </Link> */}
           <Link href="/portal" style={{ textDecoration: 'none' }}>
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>負碳試算</div>
           </Link>
