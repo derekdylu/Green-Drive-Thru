@@ -60,10 +60,6 @@ const Analysis = () => {
         </DialogActions>
       </Dialog>
       <Navigation />
-      <Adsense
-        client="ca-pub-9248017741391316"
-        slot="5990662559"
-      />
       <div className="flex flex-row items-center justify-center">
         <div className={classnames("flex flex-row items-center justify-center space-x-2 md:space-x-6 py-3 px-4 md:px-12 my-3 bg-zinc-300 rounded-full mx-3 md:mx-8 drop-shadow-md w-fit")}>
           <button className={classnames(styles.button, "rounded-full bg-main text-white text-sm px-3 py-2")} onClick={() => addDashboard("bar")}>+長條圖</button>
@@ -98,6 +94,10 @@ const Analysis = () => {
           )
         }
       </div>
+      <Adsense
+        client="ca-pub-9248017741391316"
+        slot="5990662559"
+      />
       <Footer />
     </div>
   )
