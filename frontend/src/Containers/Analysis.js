@@ -1,5 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import classnames from 'classnames'
+
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
 
 import styles from './styles.module.scss'
 
@@ -13,6 +19,16 @@ const Analysis = () => {
   const [dashboards, setDashboards] = useState([]);
   const [edit, setEdit] = useState(false);
 
+  const [open, setOpen] = React.useState(false);
+
+  useEffect(() => {
+    setOpen(true);
+  }, [])
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   const addDashboard = (type) => {
     setEdit(false);
     const newDashboard = <Dashboard key={dashboards.length} type={type}/>;
@@ -25,6 +41,24 @@ const Analysis = () => {
 
   return (
     <div>
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+      >
+        <DialogTitle id="alert-dialog-title">
+          {"歡迎使用 ESG DASHBOARD pre-alpha"}
+        </DialogTitle>
+        <DialogContent>
+          <DialogContentText id="alert-dialog-description">
+            本服務目前仍在 pre-alpha 階段，部分功能尚未完成，且可能會有錯誤發生，請勿將本服務用於商業用途。
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")} onClick={()=> setOpen(true)}>開始探索</button>
+        </DialogActions>
+      </Dialog>
       <Navigation />
         {/* <Adsense
           client="ca-pub-9248017741391316"
