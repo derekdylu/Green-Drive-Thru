@@ -56,7 +56,7 @@ const Analysis = () => {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")} onClick={()=> setOpen(true)}>開始探索</button>
+          <button className={classnames(styles.button, "rounded-full bg-main text-white px-4 py-2")} onClick={()=> setOpen(false)}>開始探索</button>
         </DialogActions>
       </Dialog>
       <Navigation />
