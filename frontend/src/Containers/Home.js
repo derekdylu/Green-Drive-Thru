@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import classnames from 'classnames'
+import ReactPlayer from 'react-player'
 
 import Link from '@mui/material/Link';
 
@@ -8,8 +9,8 @@ import Footer from '../Components/Footer/Footer'
 
 import styles from './styles.module.scss'
 
-import header from '../Images/header.png'
-import header_logo from '../Images/header_logo.png'
+// import header from '../Images/header.png'
+// import header_logo from '../Images/header_logo.png'
 
 const contents = [
   {
@@ -42,13 +43,16 @@ const topics = [
 ]
 
 const Home = () => {
+  const [play] = useState(true)
+
   return (
     <div>
       <Navigation />
       <div className="flex flex-col lg:flex-row items-center justify-center">
-        <div className="flex flex-grow">
-          <img className={styles.header} src={header} alt="headeer" style={{ objectFit: "cover" }} />
-          <img className={classnames(styles.headerLogo, "w-5/6 lg:w-1/2")} src={header_logo} alt="header_logo" />
+        <div className="flex flex-grow items-center md:w-1/2">
+          {/* <img className={styles.header} src={header} alt="headeer" style={{ objectFit: "cover" }} />
+          <img className={classnames(styles.headerLogo, "w-5/6 lg:w-1/2")} src={header_logo} alt="header_logo" /> */}
+          <ReactPlayer url='https://youtu.be/L0tHcHgfm9g' playing={play} loop={true} muted={true} />
         </div>
         <div className="flex flex-col flex-grow items-start px-12 py-8 lg:py-16">
           {
