@@ -52,7 +52,7 @@ const Analysis = () => {
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            本服務目前仍在 pre-alpha 階段，部分功能尚未完成，且可能會有錯誤發生，請勿將本服務用於商業用途。
+            ⚠️本服務目前仍在 pre-alpha 階段，部分功能尚未完成，且可能會有錯誤發生。
           </DialogContentText>
         </DialogContent>
         <DialogActions>
