@@ -105,7 +105,7 @@ const Home = () => {
         background: "radial-gradient(74.64% 187.56% at 100% 132.13%, #228C22 0%, #369836 0.01%, #103910 100%" 
       }}>
         <div className="text-3xl text-white font-bold">
-          成功案例
+          隆重推出 "ESG DASHBOARD" 🎉
         </div>
       </div>
       <Footer />

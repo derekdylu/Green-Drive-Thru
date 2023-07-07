@@ -19,7 +19,7 @@ const Footer = () => {
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>訂閱電子報</div>
           </Link>
           <Link href="/terms" style={{ textDecoration: 'none' }}>
-            <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>使用條款</div>
+            <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>隱私政策</div>
           </Link>
           {/* <Link href="/report" style={{ textDecoration: 'none' }}>
             <div className={classnames(styles.footerLink, "text-sm text-grey font-bold my-3")}>報告書</div>
@@ -37,8 +37,8 @@ const Footer = () => {
             <div className={classnames(styles.footerLinkInstagram, "text-sm text-grey font-bold my-3")}>Instagram</div>
           </Link>
         </div>
-        <div className="text-sm my-3">
-          2023 Green Drive Thru
+        <div className="text-xs my-3 font-bold text-grey">
+          2023 Green Drive Thru. All Rights Reserved.
         </div>
       </div>
     </div>

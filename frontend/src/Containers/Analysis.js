@@ -11,7 +11,6 @@ import styles from './styles.module.scss'
 
 import Navigation from '../Components/Navigation/Navigation';
 import Footer from '../Components/Footer/Footer';
-import {Adsense} from '@ctrl/react-adsense';
 
 import Dashboard from '../Components/Dashboard/Dashboard';
 
@@ -94,10 +93,6 @@ const Analysis = () => {
           )
         }
       </div>
-      <Adsense
-        client="ca-pub-9248017741391316"
-        slot="5990662559"
-      />
       <Footer />
     </div>
   )

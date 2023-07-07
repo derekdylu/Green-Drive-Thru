@@ -8,6 +8,7 @@ import Home from './Containers/Home';
 import Feed from './Containers/Feed';
 import Report from './Containers/Report';
 import Error from './Containers/Error';
+import Terms from './Containers/Terms'
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/analysis" element={<Analysis />} />
           <Route path="/feed" element={<Feed />} />
           <Route path="/report" element={<Report />} />
+          <Route path="/terms" element={<Terms />} />
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
         </Routes>
