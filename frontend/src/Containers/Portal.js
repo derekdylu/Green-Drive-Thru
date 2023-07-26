@@ -110,7 +110,7 @@ const Portal = () => {
                     透過使用國產木材
                   </Typography>
                   <Typography variant="h6">
-                    一年為減少的CO2e約為
+                    一年減少的CO2e約為
                   </Typography>
                   <Typography variant="h3">
                     {
