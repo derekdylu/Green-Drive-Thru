@@ -19,31 +19,31 @@ const profiles = [
     "photo": Derek,
     "name": "盧德原",
     "position": "網站建置及數據分析",
-    "education": "台灣大學資訊管理學系四年級"
+    "education": "台灣大學資訊管理學系"
   },
   {
     "photo": Vicky,
     "name": "許茵淇",
     "position": "產品與視覺設計",
-    "education": "台灣師範大學設計系四年級"
+    "education": "台灣師範大學設計系"
   },
   {
     "photo": PinYen,
     "name": "郭品言",
     "position": "商業開發及數據分析",
-    "education": "台灣大學國際企業學系三年級"
+    "education": "台灣大學國際企業學系"
   },
   {
     "photo": Kimberley,
     "name": "廖予親",
-    "position": "ESG報告書撰寫及商業開發",
-    "education": "台灣大學會計學系三年級"
+    "position": "ESG報告書及商業開發",
+    "education": "台灣大學會計學系"
   },
   {
     "photo": YiHon,
     "name": "姚奕弘",
-    "position": "ESG報告書撰寫及商業開發",
-    "education": "台灣大學工商管理學系二年級"
+    "position": "ESG報告書及商業開發",
+    "education": "台灣大學工商管理學系"
   }
 ]
 
@@ -54,7 +54,7 @@ const contents1 = [
   },
   {
     "type": "text",
-    "content": "我們是國立台灣大學第 15 屆創意創業學程的專案團隊Green Drive Thru，致力於提供組織、新創和企業一套完整的 ESG 顧問服務。"
+    "content": "我們是國立台灣大學第 15 屆創意創業學程的專案團隊 Green Drive Thru，致力於提供組織、新創和企業一套完整的 ESG 顧問服務。"
   },
   {
     "type": "text",
