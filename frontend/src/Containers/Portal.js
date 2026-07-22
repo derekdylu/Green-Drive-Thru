@@ -13,21 +13,51 @@ import Navigation from '../Components/Navigation/Navigation';
 import { timberData } from '../Utils/TimberData';
 
 const TRANSFORM_CONST = 8.8
+const CAR_CO2E_TONS = 4.6
+const MAX_CAR_ICONS = 100
+
+export const getCarIconSummary = (carEquivalent) => {
+  const safeEquivalent = Number.isFinite(carEquivalent)
+    ? Math.max(0, Math.floor(carEquivalent))
+    : 0
+
+  return {
+    hidden: Math.max(0, safeEquivalent - MAX_CAR_ICONS),
+    visible: Math.min(safeEquivalent, MAX_CAR_ICONS),
+  }
+}
 
 const Portal = () => {
   const [currentTimber, setCurrentTimber] = useState(timberData[0])
   const [currentImport, setCurrentImport] = useState(0)
   const [timbers, setTimnbers] = useState([])
 
+  const totalReduction = Math.round(
+    timbers.reduce((acc, cur) => acc + cur.reduction, 0)
+  )
+  const carEquivalent = Math.max(
+    0,
+    Math.round(totalReduction / CAR_CO2E_TONS)
+  )
+  const carIconSummary = getCarIconSummary(carEquivalent)
+
   const handleChangeTimber = (event) => {
     setCurrentTimber(event.target.value)
   }
 
   const handleChangeImport = (event) => {
-    setCurrentImport(event.target.value)
+    const value = Number(event.target.value)
+    setCurrentImport(Number.isFinite(value) && value >= 0 ? value : 0)
   }
 
   const handleAddTimber = () => {
+    if (!Number.isFinite(currentImport) || currentImport <= 0) {
+      return
+    }
+    const reduction = currentImport * TRANSFORM_CONST * currentTimber.cf
+    if (!Number.isFinite(reduction)) {
+      return
+    }
     if (timbers.find((item) => item.speciesName === currentTimber.speciesName)) {
       alert("木材已存在")
       return
@@ -37,7 +67,7 @@ const Portal = () => {
       "speciesName": currentTimber.speciesName,
       "cf": currentTimber.cf,
       "import": currentImport,
-      "reduction": Math.round((currentImport * TRANSFORM_CONST * currentTimber.cf) * 1000) / 1000,
+      "reduction": Math.round(reduction * 1000) / 1000,
     }
     setTimnbers([...timbers, newTimeber])
     setCurrentImport(0)
@@ -113,17 +143,13 @@ const Portal = () => {
                     一年減少的CO2e約為
                   </Typography>
                   <Typography variant="h3">
-                    {
-                      Math.round(timbers.reduce((acc, cur) => acc + cur.reduction, 0))
-                    } 公噸
+                    {totalReduction} 公噸
                   </Typography>
                   <Typography variant="h6" sx={{ mt: 1}}>
                     約等於
                   </Typography>
                   <Typography variant="h3">
-                    {
-                      Math.round(timbers.reduce((acc, cur) => acc + cur.reduction, 0) / 4.6)
-                    }
+                    {carEquivalent}
                   </Typography>
                   <Typography variant="h6">
                     輛汽車一年的CO2e
@@ -208,18 +234,24 @@ const Portal = () => {
           <Typography variant="caption" sx={{ mt: 0.2 }}>
             {currentTimber ? currentTimber.speciesName : ""}
           </Typography>
-          <TextField label="年進貨量 (材積；千 BMF)" variant="outlined" value={currentImport} onChange={handleChangeImport} sx={{ mt: 2 }} />
+          <TextField
+            label="年進貨量 (材積；千 BMF)"
+            type="number"
+            variant="outlined"
+            value={currentImport}
+            onChange={handleChangeImport}
+            inputProps={{ min: 0, step: "any" }}
+            sx={{ mt: 2 }}
+          />
           <Button variant="contained" color="primary" onClick={() => handleAddTimber()} disabled={!(currentImport > 0)} sx={{ mt: 2 }}>新增</Button>
         </Grid>
       </Grid>
       <Typography variant="h6" sx={{ px: 7 }}>
-        {(() => {
-          let car = [];
-          for (let i = 1; i <= Math.round(timbers.reduce((acc, cur) => acc + cur.reduction, 0) / 4.6); i++) {
-            car.push(<>🚗</>);
-          }
-          return car;
-        })()}
+        {Array.from(
+          { length: carIconSummary.visible },
+          (_, index) => <span key={index}>🚗</span>
+        )}
+        {carIconSummary.hidden > 0 && ` +${carIconSummary.hidden}`}
       </Typography>
     </div>
   )

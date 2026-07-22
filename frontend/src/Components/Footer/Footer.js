@@ -38,7 +38,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="text-xs my-3 font-bold text-grey">
-          2024 Green Drive Thru. All Rights Reserved.
+          {new Date().getFullYear()} Green Drive Thru. All Rights Reserved.
         </div>
       </div>
     </div>

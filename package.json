@@ -1,8 +1,22 @@
 {
-  "name": "green-report-generator",
+  "name": "green-drive-thru",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/derekdylu/green-report-generator.git",
-  "author": "Derek Lu <derekdylu@gmail.com>",
+  "private": true,
+  "description": "Public website and ESG data dashboard for Green Drive Thru.",
+  "scripts": {
+    "start": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix frontend test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekdylu/Green-Drive-Thru.git"
+  },
+  "homepage": "https://green-drive-thru.netlify.app/",
+  "author": "Derek Lu",
+  "engines": {
+    "node": ">=22.13.0",
+    "npm": ">=10"
+  },
   "license": "MIT"
 }

@@ -26,11 +26,11 @@ const Terms = () => {
         </div>
         <div className='flex flex-col gap-4 mt-4'>
           {content.map((item, index) => (
-            <div className='flex flex-row'>
+            <div className='flex flex-row' key={index}>
               <div className='font-bold'>
                 {index+1}.
               </div>
-              <div key={index} className=''>
+              <div>
                 {item}
               </div>
             </div>

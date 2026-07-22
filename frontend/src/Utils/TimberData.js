@@ -1,3 +1,5 @@
+// Carbon conversion factors from Taiwan Ministry of Agriculture table 1:
+// https://www.moa.gov.tw/ws.php?id=17871
 export const timberData = [
   { 
     "name": "台灣肖楠",
@@ -6,12 +8,12 @@ export const timberData = [
   },
   { 
     "name": "紅檜",
-    "SpeciesName": "Chamaecyparis formosensis",
+    "speciesName": "Chamaecyparis formosensis",
     "cf": 0.204,
   },
   { 
     "name": "台灣扁柏",
-    "speciesName": "Cryptomeria obtusa",
+    "speciesName": "Chamaecyparis obtusa",
     "cf": 0.203,
   },
   { 
@@ -35,13 +37,8 @@ export const timberData = [
     "cf": 0.259,
   },
   {
-    "name": "台灣雲杉",
-    "speciesName": "Picea morrisonicola",
-    "cf": 0.221,
-  },
-  {
     "name": "台灣杉",
-    "speciesName": "Tawania cryptomerioides",
+    "speciesName": "Taiwania cryptomerioides",
     "cf": 0.155,
   },
   {
@@ -51,11 +48,6 @@ export const timberData = [
   },
   {
     "name": "相思樹",
-    "speciesName": "Picea morrisonicola",
-    "cf": 0.221,
-  },
-  {
-    "name": "台灣雲杉",
     "speciesName": "Acacia confusa",
     "cf": 0.363,
   },
