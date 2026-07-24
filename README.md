@@ -1,5 +1,7 @@
 # Green Drive Thru
 
+<img width="1920" height="1080" alt="Slide 16_9 - 38" src="https://github.com/user-attachments/assets/b3d630d0-93ba-4ae7-ab27-955d5b59c8ca" />
+
 Green Drive Thru is a Traditional Chinese website for an NTU Innovation & Entrepreneurship Program team. It presents the team's ESG services, a dashboard for exploring bundled ESG report data from Taiwanese public companies, and a domestic-timber carbon-reduction calculator.
 
 The production site is [green-drive-thru.netlify.app](https://green-drive-thru.netlify.app/). This repository contains a client-side React application; it does not contain an API or database service.
